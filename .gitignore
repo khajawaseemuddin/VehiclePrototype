@@ -35,3 +35,7 @@ ENV/
 
 # Local configuration
 .env
+videos/*.mp4
+uploads/*.mp4
+static/*.mp4
+videos/pexels_traffic_long.mp4
