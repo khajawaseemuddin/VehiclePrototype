@@ -1,0 +1,20 @@
+{
+    "5": {
+        "plate_text": "GY14NAO",
+        "confidence": 0.972830057144165,
+        "image_path": "outputs\\improved_plates\\improved_plate_5.jpg",
+        "speed": 80.9
+    },
+    "9": {
+        "plate_text": "GY64VZG",
+        "confidence": 0.9569838643074036,
+        "image_path": "outputs\\improved_plates\\improved_plate_9.jpg",
+        "speed": 82.7
+    },
+    "11": {
+        "plate_text": "PJ66HFW",
+        "confidence": 0.965347409248352,
+        "image_path": "outputs\\improved_plates\\improved_plate_11.jpg",
+        "speed": 80.9
+    }
+}

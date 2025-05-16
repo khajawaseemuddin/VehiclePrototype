@@ -1,0 +1,30 @@
+{
+  "17": [
+    {
+      "plate_text": "OLDPLATE17",
+      "confidence": 0.6,
+      "plate_path": "outputs/plates/plate_vehicle_17.jpg"
+    }
+  ],
+  "23": [
+    {
+      "plate_text": "OLDPLATE23",
+      "confidence": 0.55,
+      "plate_path": "outputs/plates/plate_vehicle_23.jpg"
+    }
+  ],
+  "24": [
+    {
+      "plate_text": "OLDPLATE24",
+      "confidence": 0.5,
+      "plate_path": "outputs/plates/plate_vehicle_24.jpg"
+    }
+  ],
+  "27": [
+    {
+      "plate_text": "OLDPLATE27",
+      "confidence": 0.45,
+      "plate_path": "outputs/plates/plate_vehicle_27.jpg"
+    }
+  ]
+} 

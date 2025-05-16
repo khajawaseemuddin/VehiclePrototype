@@ -1,0 +1,246 @@
+{
+    "challans": [
+        {
+            "challan_id": "CH-20250430-17",
+            "vehicle_id": "17",
+            "plate_text": "PJ66HFW",
+            "speed": 178.08202165286306,
+            "fine_amount": 8000,
+            "issue_date": "2025-04-30 22:00:50",
+            "status": "Pending",
+            "challan_image": "/get_challan/17",
+            "qr_code": "/get_qr/17"
+        },
+        {
+            "challan_id": "CH-20250430-17",
+            "vehicle_id": "17",
+            "plate_text": "PJ66HFW",
+            "speed": 178.08202165286306,
+            "fine_amount": 8000,
+            "issue_date": "2025-04-30 22:01:30",
+            "status": "Pending",
+            "challan_image": "/get_challan/17",
+            "qr_code": "/get_qr/17"
+        },
+        {
+            "challan_id": "CH-20250430-23",
+            "vehicle_id": "23",
+            "plate_text": "GP19XDO",
+            "speed": 87.96578927692342,
+            "fine_amount": 1000,
+            "issue_date": "2025-04-30 22:01:30",
+            "status": "Pending",
+            "challan_image": "/get_challan/23",
+            "qr_code": "/get_qr/23"
+        },
+        {
+            "challan_id": "CH-20250430-24",
+            "vehicle_id": "24",
+            "plate_text": "GP19XDO",
+            "speed": 90.38607124045082,
+            "fine_amount": 1000,
+            "issue_date": "2025-04-30 22:01:30",
+            "status": "Pending",
+            "challan_image": "/get_challan/24",
+            "qr_code": "/get_qr/24"
+        },
+        {
+            "challan_id": "CH-20250430-27",
+            "vehicle_id": "27",
+            "plate_text": "OL13EPN",
+            "speed": 93.87728004268492,
+            "fine_amount": 1000,
+            "issue_date": "2025-04-30 22:01:30",
+            "status": "Pending",
+            "challan_image": "/get_challan/27",
+            "qr_code": "/get_qr/27"
+        },
+        {
+            "challan_id": "CH-20250502-5",
+            "vehicle_id": "5",
+            "plate_text": "GY14NAO",
+            "speed": 80.85360568467647,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-02 19:55:39",
+            "status": "Pending",
+            "challan_image": "/get_challan/5",
+            "qr_code": "/get_qr/5"
+        },
+        {
+            "challan_id": "CH-20250502-9",
+            "vehicle_id": "9",
+            "plate_text": "GY64VZG",
+            "speed": 85.93727117885247,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-02 19:55:39",
+            "status": "Pending",
+            "challan_image": "/get_challan/9",
+            "qr_code": "/get_qr/9"
+        },
+        {
+            "challan_id": "CH-20250502-11",
+            "vehicle_id": "11",
+            "plate_text": "PJ66HFW",
+            "speed": 83.24112163005668,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-02 19:55:39",
+            "status": "Pending",
+            "challan_image": "/get_challan/11",
+            "qr_code": "/get_qr/11"
+        },
+        {
+            "challan_id": "CH-20250511-5",
+            "vehicle_id": "5",
+            "plate_text": "GY14NAO",
+            "speed": 80.85360568467647,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-11 10:54:23",
+            "status": "Pending",
+            "challan_image": "/get_challan/5",
+            "qr_code": "/get_qr/5"
+        },
+        {
+            "challan_id": "CH-20250511-9",
+            "vehicle_id": "9",
+            "plate_text": "GY64VZG",
+            "speed": 85.93727117885247,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-11 10:54:23",
+            "status": "Pending",
+            "challan_image": "/get_challan/9",
+            "qr_code": "/get_qr/9"
+        },
+        {
+            "challan_id": "CH-20250511-11",
+            "vehicle_id": "11",
+            "plate_text": "PJ66HFW",
+            "speed": 83.24112163005668,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-11 10:54:23",
+            "status": "Pending",
+            "challan_image": "/get_challan/11",
+            "qr_code": "/get_qr/11"
+        },
+        {
+            "challan_id": "CH-20250511-5",
+            "vehicle_id": "5",
+            "plate_text": "GY14NAO",
+            "speed": 80.85360568467647,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-11 10:54:43",
+            "status": "Pending",
+            "challan_image": "/get_challan/5",
+            "qr_code": "/get_qr/5"
+        },
+        {
+            "challan_id": "CH-20250511-7",
+            "vehicle_id": "7",
+            "plate_text": "Unknown",
+            "speed": 45.228677067893614,
+            "fine_amount": 0,
+            "issue_date": "2025-05-11 10:54:43",
+            "status": "Pending",
+            "challan_image": "/get_challan/7",
+            "qr_code": "/get_qr/7"
+        },
+        {
+            "challan_id": "CH-20250511-9",
+            "vehicle_id": "9",
+            "plate_text": "GY64VZG",
+            "speed": 85.93727117885247,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-11 10:54:43",
+            "status": "Pending",
+            "challan_image": "/get_challan/9",
+            "qr_code": "/get_qr/9"
+        },
+        {
+            "challan_id": "CH-20250511-10",
+            "vehicle_id": "10",
+            "plate_text": "Unknown",
+            "speed": 72.82454959360331,
+            "fine_amount": 0,
+            "issue_date": "2025-05-11 10:54:44",
+            "status": "Pending",
+            "challan_image": "/get_challan/10",
+            "qr_code": "/get_qr/10"
+        },
+        {
+            "challan_id": "CH-20250511-11",
+            "vehicle_id": "11",
+            "plate_text": "PJ66HFW",
+            "speed": 83.24112163005668,
+            "fine_amount": 1000,
+            "issue_date": "2025-05-11 10:54:44",
+            "status": "Pending",
+            "challan_image": "/get_challan/11",
+            "qr_code": "/get_qr/11"
+        },
+        {
+            "challan_id": "CH-20250511-12",
+            "vehicle_id": "12",
+            "plate_text": "Unknown",
+            "speed": 64.89314352621693,
+            "fine_amount": 0,
+            "issue_date": "2025-05-11 10:54:44",
+            "status": "Pending",
+            "challan_image": "/get_challan/12",
+            "qr_code": "/get_qr/12"
+        },
+        {
+            "challan_id": "CH-20250511-17",
+            "vehicle_id": "17",
+            "plate_text": "OLDPLATE17",
+            "speed": 48.728170924292556,
+            "fine_amount": 0,
+            "issue_date": "2025-05-11 10:54:44",
+            "status": "Pending",
+            "challan_image": "/get_challan/17",
+            "qr_code": "/get_qr/17"
+        },
+        {
+            "challan_id": "CH-20250511-21",
+            "vehicle_id": "21",
+            "plate_text": "Unknown",
+            "speed": 56.89303554734158,
+            "fine_amount": 0,
+            "issue_date": "2025-05-11 10:54:44",
+            "status": "Pending",
+            "challan_image": "/get_challan/21",
+            "qr_code": "/get_qr/21"
+        },
+        {
+            "challan_id": "CH-20250511-23",
+            "vehicle_id": "23",
+            "plate_text": "OLDPLATE23",
+            "speed": 52.11011359739344,
+            "fine_amount": 0,
+            "issue_date": "2025-05-11 10:54:44",
+            "status": "Pending",
+            "challan_image": "/get_challan/23",
+            "qr_code": "/get_qr/23"
+        },
+        {
+            "challan_id": "CH-20250511-24",
+            "vehicle_id": "24",
+            "plate_text": "OLDPLATE24",
+            "speed": 54.202828777076576,
+            "fine_amount": 0,
+            "issue_date": "2025-05-11 10:54:44",
+            "status": "Pending",
+            "challan_image": "/get_challan/24",
+            "qr_code": "/get_qr/24"
+        },
+        {
+            "challan_id": "CH-20250511-27",
+            "vehicle_id": "27",
+            "plate_text": "OLDPLATE27",
+            "speed": 71.74055870097403,
+            "fine_amount": 0,
+            "issue_date": "2025-05-11 10:54:45",
+            "status": "Pending",
+            "challan_image": "/get_challan/27",
+            "qr_code": "/get_qr/27"
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "total_vehicles_processed": 32,
+    "plates_detected": 32,
+    "vehicle_details": {
+        "10": [
+            {
+                "plate_text": "GY64VZG",
+                "plate_path": "outputs\\plates\\plate_vehicle_10_20250511_105419.jpg",
+                "confidence": 0.9020087122917175
+            },
+            {
+                "plate_text": "GY64VZG",
+                "plate_path": "outputs\\plates\\plate_vehicle_10_20250511_105419.jpg",
+                "confidence": 0.8720182180404663
+            },
+            {
+                "plate_text": "GY64VZG",
+                "plate_path": "outputs\\plates\\plate_vehicle_10_20250511_105419.jpg",
+                "confidence": 0.8906406760215759
+            }
+        ],
+        "11": [
+            {
+                "plate_text": "PJ66HFW",
+                "plate_path": "outputs\\plates\\plate_vehicle_11_20250511_105419.jpg",
+                "confidence": 0.9229331016540527
+            },
+            {
+                "plate_text": "PJ66HFW",
+                "plate_path": "outputs\\plates\\plate_vehicle_11_20250511_105419.jpg",
+                "confidence": 0.9421319365501404
+            },
+            {
+                "plate_text": "PJ66HFW",
+                "plate_path": "outputs\\plates\\plate_vehicle_11_20250511_105419.jpg",
+                "confidence": 0.9238917231559753
+            }
+        ],
+        "12": [
+            {
+                "plate_text": "PK07RXV",
+                "plate_path": "outputs\\plates\\plate_vehicle_12_20250511_105419.jpg",
+                "confidence": 0.8769434690475464
+            },
+            {
+                "plate_text": "PK07RXV",
+                "plate_path": "outputs\\plates\\plate_vehicle_12_20250511_105419.jpg",
+                "confidence": 0.8909367918968201
+            },
+            {
+                "plate_text": "PK07RXV",
+                "plate_path": "outputs\\plates\\plate_vehicle_12_20250511_105419.jpg",
+                "confidence": 0.9098982810974121
+            }
+        ],
+        "17": [
+            {
+                "plate_text": "LM64LMF",
+                "plate_path": "outputs\\plates\\plate_vehicle_17_20250511_105419.jpg",
+                "confidence": 0.8317367434501648
+            },
+            {
+                "plate_text": "LM64LMF",
+                "plate_path": "outputs\\plates\\plate_vehicle_17_20250511_105419.jpg",
+                "confidence": 0.8263632655143738
+            }
+        ],
+        "21": [
+            {
+                "plate_text": "GP19XDO",
+                "plate_path": "outputs\\plates\\plate_vehicle_21_20250511_105419.jpg",
+                "confidence": 0.4575589597225189
+            },
+            {
+                "plate_text": "GP19XDO",
+                "plate_path": "outputs\\plates\\plate_vehicle_21_20250511_105420.jpg",
+                "confidence": 0.47541600465774536
+            },
+            {
+                "plate_text": "GP19XDO",
+                "plate_path": "outputs\\plates\\plate_vehicle_21_20250511_105420.jpg",
+                "confidence": 0.6726486682891846
+            }
+        ],
+        "23": [
+            {
+                "plate_text": "LF64KDA",
+                "plate_path": "outputs\\plates\\plate_vehicle_23_20250511_105420.jpg",
+                "confidence": 0.8330650925636292
+            },
+            {
+                "plate_text": "LF64KDA",
+                "plate_path": "outputs\\plates\\plate_vehicle_23_20250511_105420.jpg",
+                "confidence": 0.6397855281829834
+            },
+            {
+                "plate_text": "LF64KDA",
+                "plate_path": "outputs\\plates\\plate_vehicle_23_20250511_105420.jpg",
+                "confidence": 0.6717450022697449
+            }
+        ],
+        "24": [
+            {
+                "plate_text": "OE13EPN",
+                "plate_path": "outputs\\plates\\plate_vehicle_24_20250511_105420.jpg",
+                "confidence": 0.7363357543945312
+            },
+            {
+                "plate_text": "OE13EPN",
+                "plate_path": "outputs\\plates\\plate_vehicle_24_20250511_105420.jpg",
+                "confidence": 0.6688443422317505
+            },
+            {
+                "plate_text": "OE13EPN",
+                "plate_path": "outputs\\plates\\plate_vehicle_24_20250511_105420.jpg",
+                "confidence": 0.6566341519355774
+            }
+        ],
+        "27": [
+            {
+                "plate_text": "",
+                "plate_path": "outputs\\plates\\plate_vehicle_27_20250511_105420.jpg",
+                "confidence": 0.671885073184967
+            },
+            {
+                "plate_text": "",
+                "plate_path": "outputs\\plates\\plate_vehicle_27_20250511_105420.jpg",
+                "confidence": 0.6742067933082581
+            },
+            {
+                "plate_text": "",
+                "plate_path": "outputs\\plates\\plate_vehicle_27_20250511_105420.jpg",
+                "confidence": 0.6904811859130859
+            }
+        ],
+        "5": [
+            {
+                "plate_text": "GY14NA0",
+                "plate_path": "outputs\\plates\\plate_vehicle_5_20250511_105420.jpg",
+                "confidence": 0.8739985227584839
+            },
+            {
+                "plate_text": "GY14NA0",
+                "plate_path": "outputs\\plates\\plate_vehicle_5_20250511_105420.jpg",
+                "confidence": 0.880092978477478
+            },
+            {
+                "plate_text": "GY14NA0",
+                "plate_path": "outputs\\plates\\plate_vehicle_5_20250511_105420.jpg",
+                "confidence": 0.8399963974952698
+            }
+        ],
+        "7": [
+            {
+                "plate_text": "S666NJP",
+                "plate_path": "outputs\\plates\\plate_vehicle_7_20250511_105421.jpg",
+                "confidence": 0.7105822563171387
+            },
+            {
+                "plate_text": "S666NJP",
+                "plate_path": "outputs\\plates\\plate_vehicle_7_20250511_105421.jpg",
+                "confidence": 0.7174460887908936
+            },
+            {
+                "plate_text": "S666NJP",
+                "plate_path": "outputs\\plates\\plate_vehicle_7_20250511_105421.jpg",
+                "confidence": 0.8019459247589111
+            }
+        ],
+        "9": [
+            {
+                "plate_text": "L865DTV",
+                "plate_path": "outputs\\plates\\plate_vehicle_9_20250511_105421.jpg",
+                "confidence": 0.9066312909126282
+            },
+            {
+                "plate_text": "L865DTV",
+                "plate_path": "outputs\\plates\\plate_vehicle_9_20250511_105421.jpg",
+                "confidence": 0.9007048010826111
+            },
+            {
+                "plate_text": "L865DTV",
+                "plate_path": "outputs\\plates\\plate_vehicle_9_20250511_105421.jpg",
+                "confidence": 0.8981398344039917
+            }
+        ]
+    }
+}

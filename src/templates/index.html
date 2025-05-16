@@ -3,252 +3,560 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traffic Violation Detection System</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>AutoChallan - Speed Violation & License Plate Detection System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary-color: #3a6ea5;
+            --secondary-color: #f0f7ff;
+            --accent-color: #ff6b6b;
+            --text-color: #2d3748;
+            --light-gray: #f8f9fa;
+            --dark-gray: #343a40;
+            --success-color: #38b2ac;
+            --warning-color: #f6ad55;
+            --danger-color: #e53e3e;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .result-item {
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: #f8f9fa;
-            border-radius: 4px;
-        }
-        .result-item h2 {
-            color: #2c3e50;
-            margin: 0 0 10px 0;
-            font-size: 1.2em;
-        }
-        .result-item p {
-            color: #34495e;
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+            background-color: #f5f8fa;
             margin: 0;
-            font-size: 1.1em;
+            padding: 0;
+            line-height: 1.6;
         }
-        .speeding-ids {
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .navbar {
+            background-color: var(--primary-color) !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
             display: flex;
-            flex-wrap: wrap;
+            align-items: center;
             gap: 10px;
         }
-        .speeding-id {
-            background-color: #e74c3c;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-weight: bold;
+        
+        .brand-icon {
+            font-size: 1.8rem;
+            color: var(--accent-color);
         }
-        .refresh-btn {
-            display: block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #3498db;
+        
+        .btn-outline-light:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), #1e4e8c);
             color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            font-weight: 300;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .card {
             border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1em;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 1.5rem;
+            overflow: hidden;
         }
-        .refresh-btn:hover {
-            background-color: #2980b9;
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
         }
-        .dashboard-card {
+        
+        .card-header {
+            background-color: white;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            padding: 1.25rem 1.5rem;
+        }
+        
+        .card-title {
+            margin-bottom: 0;
+            font-weight: 600;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .card-body {
+            padding: 1.5rem;
+        }
+        
+        .stat-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.25rem;
+            height: 100%;
+            border-left: 4px solid var(--primary-color);
             transition: transform 0.2s;
         }
-        .dashboard-card:hover {
-            transform: translateY(-5px);
+        
+        .stat-card:hover {
+            transform: translateY(-3px);
         }
+        
+        .stat-card h6 {
+            color: #718096;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-card h3 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 0;
+        }
+        
+        .stats-container {
+            margin-bottom: 2rem;
+        }
+        
+        .badge-speeding {
+            background-color: var(--danger-color);
+            color: white;
+            font-weight: 500;
+            padding: 0.35rem 0.75rem;
+            border-radius: 6px;
+            margin: 0.25rem;
+            display: inline-block;
+        }
+        
+        .section-title {
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+        }
+        
+        .btn {
+            border-radius: 6px;
+            padding: 0.5rem 1rem;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #2d5a8b;
+            border-color: #2d5a8b;
+        }
+        
+        .btn-success {
+            background-color: var(--success-color);
+            border-color: var(--success-color);
+        }
+        
+        .status-message {
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        
+        .status-info {
+            background-color: #ebf8ff;
+            border-left: 4px solid #4299e1;
+            color: #2c5282;
+        }
+        
+        .status-success {
+            background-color: #f0fff4;
+            border-left: 4px solid #48bb78;
+            color: #276749;
+        }
+        
+        .status-error {
+            background-color: #fff5f5;
+            border-left: 4px solid #f56565;
+            color: #c53030;
+        }
+        
+        .plate-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 100%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        
+        .plate-header {
+            background-color: var(--light-gray);
+            padding: 1rem;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        
         .plate-image {
-            max-width: 200px;
-            max-height: 100px;
+            max-width: 100%;
+            max-height: 150px;
+            border-radius: 6px;
+            margin: 0 auto;
+            display: block;
             object-fit: contain;
         }
-        .status-message {
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-        .status-info {
-            background-color: #e7f3fe;
-            border-left: 6px solid #2196F3;
-        }
-        .speeding-badge {
-            background-color: #dc3545;
-            color: white;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.9em;
-            margin-left: 8px;
-        }
-        .plate-info {
-            margin-top: 10px;
-        }
-        .license-plate {
-            margin-bottom: 5px;
-        }
+        
         .plate-number {
-            font-family: monospace;
-            font-size: 1.2em;
-            font-weight: bold;
-            background-color: #f8f9fa;
-            padding: 4px 8px;
-            border-radius: 4px;
-            margin-left: 8px;
-            letter-spacing: 1px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.25rem;
+            font-weight: 700;
+            background-color: var(--light-gray);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            letter-spacing: 1.5px;
+            display: inline-block;
+            margin: 0.5rem 0;
         }
-        .confidence-score {
-            color: #6c757d;
-            font-size: 0.9em;
+        
+        .confidence-badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+        
+        .speeding-badge {
+            background-color: var(--danger-color);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .footer {
+            margin-top: 3rem;
+            background-color: var(--dark-gray);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <span class="navbar-brand mb-0 h1">Traffic Violation Detection System</span>
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-car-crash brand-icon"></i>
+                AutoChallan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">
+                            <i class="fas fa-home"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/improved_plates">
+                            <i class="fas fa-search"></i> Improved Detection
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/challans">
+                            <i class="fas fa-receipt"></i> Challans
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="container mt-4">
-        <!-- Speed Detection Results -->
-        <div class="row mb-4">
-            <div class="col-12">
-                <div class="card dashboard-card">
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-tachometer-alt"></i> Speed Detection Results</h5>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="card bg-light">
-                                    <div class="card-body">
-                                        <h6>Total Frames Processed</h6>
+    <!-- Header Section -->
+    <header class="header text-center">
+        <div class="container">
+            <h1><i class="fas fa-shield-alt me-2"></i>AutoChallan System</h1>
+            <p>Advanced Speed Violation & License Plate Detection System</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Dashboard Stats Section -->
+        <div class="row stats-container">
+            <div class="col-md-3 mb-4">
+                <div class="stat-card" style="border-left-color: #4299e1;">
+                    <h6><i class="fas fa-film me-2"></i>Frames Processed</h6>
                                         <h3>{{ results.total_frames }}</h3>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card bg-light">
-                                    <div class="card-body">
-                                        <h6>Total Vehicles Detected</h6>
+            <div class="col-md-3 mb-4">
+                <div class="stat-card" style="border-left-color: #48bb78;">
+                    <h6><i class="fas fa-car me-2"></i>Vehicles Detected</h6>
                                         <h3>{{ results.total_vehicles }}</h3>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card bg-light">
-                                    <div class="card-body">
-                                        <h6>Speeding Vehicles</h6>
+            <div class="col-md-3 mb-4">
+                <div class="stat-card" style="border-left-color: #ed8936;">
+                    <h6><i class="fas fa-tachometer-alt me-2"></i>Speeding Vehicles</h6>
                                         <h3>{{ results.speeding_vehicles }}</h3>
                                     </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="stat-card" style="border-left-color: #e53e3e;">
+                    <h6><i class="fas fa-exclamation-triangle me-2"></i>Violation Rate</h6>
+                    <h3>{{ (results.speeding_vehicles / results.total_vehicles * 100)|round|int if results.total_vehicles > 0 else 0 }}%</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-3">
-                            <h6>Speeding Vehicle IDs</h6>
+
+        <!-- Speeding Vehicles -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title"><i class="fas fa-exclamation-circle me-2"></i>Speeding Vehicles</h5>
+            </div>
+            <div class="card-body">
+                {% if results.speeding_vehicle_ids|length > 0 %}
+                    <div class="mb-3">
                             {% for vehicle_id in results.speeding_vehicle_ids %}
-                            <span class="badge bg-danger">Vehicle {{ vehicle_id }}</span>
+                            <span class="badge-speeding">Vehicle {{ vehicle_id }}</span>
                             {% endfor %}
                         </div>
+                {% else %}
+                    <div class="text-center py-4">
+                        <i class="fas fa-check-circle text-success fa-3x mb-3"></i>
+                        <h5>No Speeding Vehicles Detected</h5>
+                        <p class="text-muted">All vehicles are driving within the speed limit.</p>
                     </div>
-                </div>
+                {% endif %}
             </div>
         </div>
 
-        <!-- License Plates of Speeding Vehicles -->
-        <div class="row">
-            <div class="col-12">
-                <div class="card dashboard-card">
+        <!-- License Plates Section -->
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="card-title"><i class="fas fa-id-card me-2"></i>License Plate Detection</h5>
+                <button class="btn btn-primary" onclick="loadPlates()">
+                    <i class="fas fa-sync me-2"></i>Load Plates
+                </button>
+            </div>
                     <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-car"></i> License Plates of Speeding Vehicles</h5>
-                        <button class="btn btn-primary mb-3" onclick="loadPlates()">
-                            <i class="fas fa-sync"></i> Show License Plates
-                        </button>
                         <div id="plateStatus" class="status-message status-info">
-                            <i class="fas fa-info-circle"></i> Click the button above to load license plate data for speeding vehicles.
+                    <i class="fas fa-info-circle me-2"></i>Click the button above to load license plate data for speeding vehicles.
                         </div>
                         <div class="row" id="plateList">
                             <!-- License plates will be loaded here -->
                         </div>
                     </div>
                 </div>
+
+        <!-- Challan Generation Section -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title"><i class="fas fa-file-invoice me-2"></i>Traffic Challan Generation</h5>
+            </div>
+            <div class="card-body">
+                <p class="mb-3">Generate digital traffic challans for speeding vehicles with detected license plates.</p>
+                
+                <button class="btn btn-success mb-3" onclick="generateAllChallans()">
+                    <i class="fas fa-file-invoice me-2"></i>Generate All Challans
+                </button>
+                
+                <div id="challanStatus" class="status-message status-info">
+                    <i class="fas fa-info-circle me-2"></i>Click the button above to generate challans for all speeding vehicles.
+                </div>
+                
+                <div class="row" id="challanList">
+                    <!-- Challans will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Improved Detection Section -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title"><i class="fas fa-search-plus me-2"></i>Improved License Plate Detection</h5>
+            </div>
+            <div class="card-body">
+                <p>Our system uses advanced AI technology for more accurate license plate detection.</p>
+                <a href="/improved_plates" class="btn btn-primary">
+                    <i class="fas fa-search me-2"></i>View Improved Detection
+                </a>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 AutoChallan - Speed Violation & License Plate Detection System</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Load license plates
+        // Function to load license plates
         async function loadPlates() {
             try {
-                const plateStatus = document.getElementById('plateStatus');
-                plateStatus.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading license plates...';
-                plateStatus.className = 'status-message status-info';
+                document.getElementById('plateStatus').innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Loading license plate data...';
+                document.getElementById('plateStatus').className = 'status-message status-info';
 
                 const response = await fetch('/api/plates');
                 const data = await response.json();
                 
-                if (response.ok) {
-                    const plateList = document.getElementById('plateList');
-                    plateList.innerHTML = '';
-
-                    if (data.plates_detected === 0) {
-                        plateStatus.innerHTML = '<i class="fas fa-info-circle"></i> No license plates detected for speeding vehicles.';
-                        plateStatus.className = 'status-message status-info';
-                    } else {
-                        plateStatus.innerHTML = `<i class="fas fa-check-circle"></i> Found ${data.plates_detected} license plates for speeding vehicles`;
-                        plateStatus.className = 'status-message status-success';
-
-                        Object.entries(data.vehicle_details).forEach(([vehicleId, details]) => {
-                            const col = document.createElement('div');
-                            col.className = 'col-md-4 mb-3';
-                            const speed = parseFloat(details.speed);
-                            col.innerHTML = `
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h6 class="card-title">
-                                            Vehicle ID: ${vehicleId}
-                                            <span class="speeding-badge">Avg: ${speed.toFixed(1)} km/h</span>
-                                        </h6>
-                                        <div class="plate-info">
-                                            <div class="license-plate">
-                                                <strong>License Plate:</strong>
+                if (data.vehicle_details && Object.keys(data.vehicle_details).length > 0) {
+                    let plateHTML = '';
+                    
+                    for (const [vehicleId, details] of Object.entries(data.vehicle_details)) {
+                        const confidence = parseFloat(details.confidence) || 0;
+                        let confidenceClass = 'bg-danger';
+                        
+                        if (confidence >= 0.7) {
+                            confidenceClass = 'bg-success';
+                        } else if (confidence >= 0.5) {
+                            confidenceClass = 'bg-warning text-dark';
+                        }
+                        
+                        plateHTML += `
+                            <div class="col-md-4 mb-4">
+                                <div class="plate-card h-100">
+                                    <div class="plate-header d-flex justify-content-between">
+                                        <span><strong>Vehicle ${vehicleId}</strong></span>
+                                        <span class="speeding-badge">${details.speed} km/h</span>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <img src="/plates/${vehicleId}" class="plate-image mb-3" alt="License Plate">
+                                        <div>
                                                 <span class="plate-number">${details.plate_text}</span>
+                                            <span class="badge ${confidenceClass} confidence-badge">${Math.round(confidence * 100)}%</span>
                                             </div>
-                                            <div class="confidence-score">
-                                                <small class="text-muted">Confidence: ${(details.confidence * 100).toFixed(1)}%</small>
-                                            </div>
+                                        <button class="btn btn-primary btn-sm mt-3" onclick="generateChallan('${vehicleId}')">
+                                            <i class="fas fa-file-invoice me-1"></i>Generate Challan
+                                        </button>
                                         </div>
                                     </div>
                                 </div>
                             `;
-                            plateList.appendChild(col);
-                        });
                     }
+                    
+                    document.getElementById('plateList').innerHTML = plateHTML;
+                    document.getElementById('plateStatus').innerHTML = '<i class="fas fa-check-circle me-2"></i> License plate data loaded successfully!';
+                    document.getElementById('plateStatus').className = 'status-message status-success';
+                } else {
+                    document.getElementById('plateStatus').innerHTML = '<i class="fas fa-info-circle me-2"></i> No license plate data available.';
+                    document.getElementById('plateStatus').className = 'status-message status-info';
                 }
             } catch (error) {
                 console.error('Error loading plates:', error);
-                const plateStatus = document.getElementById('plateStatus');
-                plateStatus.innerHTML = `<i class="fas fa-exclamation-circle"></i> Error loading plates: ${error}`;
-                plateStatus.className = 'status-message status-error';
+                document.getElementById('plateStatus').innerHTML = `<i class="fas fa-exclamation-circle me-2"></i> Error loading license plate data: ${error.message}`;
+                document.getElementById('plateStatus').className = 'status-message status-error';
+            }
+        }
+        
+        // Function to generate all challans
+        async function generateAllChallans() {
+            try {
+                document.getElementById('challanStatus').innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Generating challans...';
+                document.getElementById('challanStatus').className = 'status-message status-info';
+                
+                // For each speeding vehicle with a plate detected
+                const response = await fetch('/api/plates');
+                const data = await response.json();
+                
+                let successCount = 0;
+                let errorCount = 0;
+                
+                for (const vehicleId of Object.keys(data.vehicle_details)) {
+                    try {
+                        const challanResponse = await fetch('/generate_challans', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ vehicle_id: vehicleId })
+                        });
+                        
+                        if (challanResponse.ok) {
+                            successCount++;
+                        } else {
+                            errorCount++;
+                        }
+                    } catch (e) {
+                        errorCount++;
+                        console.error(`Error generating challan for vehicle ${vehicleId}:`, e);
+                    }
+                }
+                
+                if (successCount > 0) {
+                    document.getElementById('challanStatus').innerHTML = `<i class="fas fa-check-circle me-2"></i> Successfully generated ${successCount} challans. <a href="/challans" class="alert-link">View all challans</a>`;
+                    document.getElementById('challanStatus').className = 'status-message status-success';
+                } else if (errorCount > 0) {
+                    document.getElementById('challanStatus').innerHTML = `<i class="fas fa-exclamation-circle me-2"></i> Error generating challans. Please try again.`;
+                    document.getElementById('challanStatus').className = 'status-message status-error';
+                } else {
+                    document.getElementById('challanStatus').innerHTML = '<i class="fas fa-info-circle me-2"></i> No vehicles found for challan generation.';
+                    document.getElementById('challanStatus').className = 'status-message status-info';
+                }
+            } catch (error) {
+                console.error('Error generating challans:', error);
+                document.getElementById('challanStatus').innerHTML = `<i class="fas fa-exclamation-circle me-2"></i> Error generating challans: ${error.message}`;
+                document.getElementById('challanStatus').className = 'status-message status-error';
             }
         }
 
-        // Load plates when page loads
-        loadPlates();
+        // Function to generate challan for a specific vehicle
+        async function generateChallan(vehicleId) {
+            try {
+                const response = await fetch('/generate_challans', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ vehicle_id: vehicleId })
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    alert(`Challan generated successfully for vehicle ${vehicleId}`);
+                    window.location.href = '/challans';
+                } else {
+                    const data = await response.json();
+                    alert(`Error generating challan: ${data.error || 'Unknown error'}`);
+                }
+            } catch (error) {
+                console.error('Error generating challan:', error);
+                alert(`Error generating challan: ${error.message}`);
+            }
+        }
     </script>
 </body>
 </html> 

@@ -2142,3 +2142,1123 @@
 2025-04-30 13:29:35,844 - INFO - Speeding vehicles: 3
 2025-04-30 13:29:35,844 - INFO - Speeding vehicle IDs: [8, 15, 74]
 2025-04-30 13:29:35,921 - INFO - Speed detection completed
+2025-04-30 16:29:57,188 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-04-30 16:29:57,459 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-04-30 16:29:57,698 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-04-30 16:30:10,224 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-04-30 16:30:10,448 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-04-30 16:30:10,662 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-04-30 16:30:15,610 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-04-30 16:30:15,805 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-04-30 16:30:16,009 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-04-30 16:30:18,867 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-04-30 16:30:19,139 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-04-30 16:30:19,421 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-04-30 16:30:21,613 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-04-30 16:30:21,858 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-04-30 16:30:22,146 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-04-30 16:30:22,915 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-04-30 16:30:23,203 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-04-30 16:30:23,508 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-04-30 16:30:26,433 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-04-30 16:30:26,921 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-04-30 16:30:27,172 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-04-30 16:30:37,438 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-04-30 16:30:38,501 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-04-30 16:30:38,737 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-04-30 16:30:42,658 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-04-30 16:30:42,882 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-04-30 16:30:43,086 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-04-30 16:30:45,315 - INFO - Speed data and detection results saved successfully
+2025-04-30 16:30:45,316 - INFO - Total frames processed: 262
+2025-04-30 16:30:45,316 - INFO - Total vehicles detected: 23
+2025-04-30 16:30:45,317 - INFO - Speeding vehicles: 3
+2025-04-30 16:30:45,317 - INFO - Speeding vehicle IDs: [17, 21, 23]
+2025-04-30 16:30:45,430 - INFO - Speed detection completed
+2025-04-30 16:55:00,912 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-04-30 16:55:01,124 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-04-30 16:55:01,374 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-04-30 16:55:13,250 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-04-30 16:55:13,465 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-04-30 16:55:13,721 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-04-30 16:55:18,226 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-04-30 16:55:18,461 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-04-30 16:55:18,668 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-04-30 16:55:21,221 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-04-30 16:55:21,431 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-04-30 16:55:21,650 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-04-30 16:55:23,585 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-04-30 16:55:23,805 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-04-30 16:55:24,006 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-04-30 16:55:24,651 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-04-30 16:55:24,870 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-04-30 16:55:25,086 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-04-30 16:55:27,538 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-04-30 16:55:27,963 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-04-30 16:55:28,195 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-04-30 16:55:37,343 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-04-30 16:55:38,367 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-04-30 16:55:38,572 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-04-30 16:55:41,885 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-04-30 16:55:42,086 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-04-30 16:55:42,303 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-04-30 16:55:45,940 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-04-30 16:55:46,168 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-04-30 16:55:46,376 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-04-30 16:55:50,179 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-04-30 16:55:50,602 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-04-30 16:55:50,787 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-04-30 16:55:52,889 - INFO - Speed data and detection results saved successfully
+2025-04-30 16:55:52,890 - INFO - Total frames processed: 304
+2025-04-30 16:55:52,891 - INFO - Total vehicles detected: 28
+2025-04-30 16:55:52,892 - INFO - Speeding vehicles: 4
+2025-04-30 16:55:52,893 - INFO - Speeding vehicle IDs: [17, 23, 24, 27]
+2025-04-30 16:55:52,958 - INFO - Speed detection completed
+2025-04-30 20:17:43,756 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-04-30 20:17:45,409 - ERROR - Error loading plate data: [Errno 2] No such file or directory: 'outputs\\plates\\plate_data.json'
+2025-04-30 20:17:45,439 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-30 20:17:49,889 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-04-30 20:17:51,543 - ERROR - Error loading plate data: [Errno 2] No such file or directory: 'outputs\\plates\\plate_data.json'
+2025-04-30 20:17:51,551 - WARNING -  * Debugger is active!
+2025-04-30 20:17:51,553 - INFO -  * Debugger PIN: 104-964-678
+2025-04-30 20:17:51,612 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-30 20:23:02,753 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-04-30 20:23:02,863 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-04-30 20:23:02,964 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-04-30 20:23:08,248 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-04-30 20:23:08,360 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-04-30 20:23:08,456 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-04-30 20:23:10,379 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-04-30 20:23:10,482 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-04-30 20:23:10,575 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-04-30 20:23:11,755 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-04-30 20:23:11,854 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-04-30 20:23:11,944 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-04-30 20:23:12,779 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-04-30 20:23:12,873 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-04-30 20:23:12,970 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-04-30 20:23:13,274 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-04-30 20:23:13,388 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-04-30 20:23:13,488 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-04-30 20:23:14,600 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-04-30 20:23:14,791 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-04-30 20:23:14,895 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-04-30 20:23:19,104 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-04-30 20:23:19,576 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-04-30 20:23:19,686 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-04-30 20:23:21,297 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-04-30 20:23:21,395 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-04-30 20:23:21,497 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-04-30 20:23:23,094 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-04-30 20:23:23,200 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-04-30 20:23:23,311 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-04-30 20:23:25,049 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-04-30 20:23:25,271 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-04-30 20:23:25,367 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-04-30 20:23:26,232 - INFO - Speed data and detection results saved successfully
+2025-04-30 20:23:26,233 - INFO - Total frames processed: 303
+2025-04-30 20:23:26,233 - INFO - Total vehicles detected: 28
+2025-04-30 20:23:26,233 - INFO - Speeding vehicles: 4
+2025-04-30 20:23:26,233 - INFO - Speeding vehicle IDs: [17, 23, 24, 27]
+2025-04-30 20:23:26,267 - INFO - Speed detection completed
+2025-05-02 14:10:39,511 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-02 14:10:39,613 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-02 14:10:39,703 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-02 14:10:44,935 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-02 14:10:45,045 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-02 14:10:45,145 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-02 14:10:47,325 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-02 14:10:47,482 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-02 14:10:47,622 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-02 14:10:49,263 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-02 14:10:49,377 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-02 14:10:49,493 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-02 14:10:50,441 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-02 14:10:50,551 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-02 14:10:50,666 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-02 14:10:51,050 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-02 14:10:51,168 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-02 14:10:51,279 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-02 14:10:52,442 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-02 14:10:52,647 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 14:10:52,743 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 14:10:57,154 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-02 14:10:57,605 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-02 14:10:57,692 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-02 14:10:59,136 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-02 14:10:59,227 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-02 14:10:59,323 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-02 14:11:00,953 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-02 14:11:01,048 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-02 14:11:01,135 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-02 14:11:02,786 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-02 14:11:03,008 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-02 14:11:03,108 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-02 14:11:04,024 - INFO - Speed data and detection results saved successfully
+2025-05-02 14:11:04,024 - INFO - Total frames processed: 304
+2025-05-02 14:11:04,025 - INFO - Total vehicles detected: 28
+2025-05-02 14:11:04,025 - INFO - Speeding vehicles: 11
+2025-05-02 14:11:04,025 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-02 14:11:04,064 - INFO - Speed detection completed
+2025-05-02 18:31:02,014 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-02 18:31:02,123 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-02 18:31:02,234 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-02 18:31:08,055 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-02 18:31:08,169 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-02 18:31:08,287 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-02 18:31:10,540 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-02 18:31:10,666 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-02 18:31:10,764 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-02 18:31:12,150 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-02 18:31:12,268 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-02 18:31:12,384 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-02 18:31:13,365 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-02 18:31:13,465 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-02 18:31:13,568 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-02 18:31:13,879 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-02 18:31:13,994 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-02 18:31:14,102 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-02 18:31:15,346 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-02 18:31:15,560 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 18:31:15,706 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 18:31:20,513 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-02 18:31:21,010 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-02 18:31:21,127 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-02 18:31:22,876 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-02 18:31:22,992 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-02 18:31:23,097 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-02 18:31:24,910 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-02 18:31:25,025 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-02 18:31:25,147 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-02 18:31:27,068 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-02 18:31:27,278 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-02 18:31:27,391 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-02 18:31:28,401 - INFO - Speed data and detection results saved successfully
+2025-05-02 18:31:28,401 - INFO - Total frames processed: 304
+2025-05-02 18:31:28,402 - INFO - Total vehicles detected: 28
+2025-05-02 18:31:28,402 - INFO - Speeding vehicles: 11
+2025-05-02 18:31:28,402 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-02 18:31:28,465 - INFO - Speed detection completed
+2025-05-02 19:54:47,060 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-05-02 19:55:00,450 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-02 19:55:00,555 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-02 19:55:00,666 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-02 19:55:06,594 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-02 19:55:06,693 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-02 19:55:06,807 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-02 19:55:08,989 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-02 19:55:09,101 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-02 19:55:09,209 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-02 19:55:10,596 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-02 19:55:10,727 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-02 19:55:10,836 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-02 19:55:11,758 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-02 19:55:11,870 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-02 19:55:11,982 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-02 19:55:12,323 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-02 19:55:12,467 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-02 19:55:12,603 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-02 19:55:13,940 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-02 19:55:14,166 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 19:55:14,282 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 19:55:19,091 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-02 19:55:19,673 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-02 19:55:19,772 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-02 19:55:21,474 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-02 19:55:21,591 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-02 19:55:21,693 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-02 19:55:23,594 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-02 19:55:23,699 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-02 19:55:23,804 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-02 19:55:25,661 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-02 19:55:25,875 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-02 19:55:25,969 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-02 19:55:27,014 - INFO - Speed data and detection results saved successfully
+2025-05-02 19:55:27,014 - INFO - Total frames processed: 304
+2025-05-02 19:55:27,014 - INFO - Total vehicles detected: 28
+2025-05-02 19:55:27,015 - INFO - Speeding vehicles: 11
+2025-05-02 19:55:27,015 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-02 19:55:27,040 - INFO - Speed detection completed
+2025-05-02 19:55:39,906 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-02 19:55:39,906 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-02 19:55:48,258 - INFO - 127.0.0.1 - - [02/May/2025 19:55:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-02 19:55:48,372 - INFO - 127.0.0.1 - - [02/May/2025 19:55:48] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-02 19:55:48,389 - INFO - 127.0.0.1 - - [02/May/2025 19:55:48] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-02 19:55:48,453 - INFO - 127.0.0.1 - - [02/May/2025 19:55:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-02 19:55:48,474 - INFO - 127.0.0.1 - - [02/May/2025 19:55:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-02 19:55:51,562 - INFO - 127.0.0.1 - - [02/May/2025 19:55:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-02 19:55:51,577 - INFO - 127.0.0.1 - - [02/May/2025 19:55:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-02 19:55:51,582 - INFO - 127.0.0.1 - - [02/May/2025 19:55:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-02 19:55:51,599 - INFO - 127.0.0.1 - - [02/May/2025 19:55:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-02 19:55:51,605 - INFO - 127.0.0.1 - - [02/May/2025 19:55:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-02 19:56:53,878 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-05-02 19:57:05,262 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-02 19:57:05,371 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-02 19:57:05,476 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-02 20:02:27,935 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-02 20:02:28,153 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-02 20:02:28,352 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-02 20:02:31,714 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-02 20:02:31,835 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-02 20:02:31,939 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-02 20:02:33,344 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-02 20:02:33,492 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-02 20:02:33,646 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-02 20:02:34,588 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-02 20:02:34,712 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-02 20:02:34,834 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-02 20:02:35,156 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-02 20:02:35,261 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-02 20:02:35,357 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-02 20:02:36,688 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-02 20:02:36,918 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 20:02:37,026 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 20:02:41,840 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-02 20:02:42,365 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-02 20:02:42,473 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-02 20:02:44,177 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-02 20:02:44,289 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-02 20:02:44,403 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-02 20:02:46,200 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-02 20:02:46,309 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-02 20:02:46,415 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-02 20:02:48,306 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-02 20:02:48,513 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-02 20:02:48,635 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-02 20:02:49,662 - INFO - Speed data and detection results saved successfully
+2025-05-02 20:02:49,663 - INFO - Total frames processed: 304
+2025-05-02 20:02:49,663 - INFO - Total vehicles detected: 28
+2025-05-02 20:02:49,663 - INFO - Speeding vehicles: 11
+2025-05-02 20:02:49,663 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-02 20:02:49,695 - INFO - Speed detection completed
+2025-05-02 20:03:02,128 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-02 20:03:02,129 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-02 20:03:03,127 - INFO - 127.0.0.1 - - [02/May/2025 20:03:03] "GET / HTTP/1.1" 200 -
+2025-05-02 20:03:03,172 - INFO - 127.0.0.1 - - [02/May/2025 20:03:03] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-02 20:03:03,173 - INFO - 127.0.0.1 - - [02/May/2025 20:03:03] "[33mGET /api/challans HTTP/1.1[0m" 404 -
+2025-05-02 20:03:08,946 - INFO - 127.0.0.1 - - [02/May/2025 20:03:08] "[33mGET /improved_plates HTTP/1.1[0m" 404 -
+2025-05-02 20:03:12,837 - INFO - 127.0.0.1 - - [02/May/2025 20:03:12] "GET / HTTP/1.1" 200 -
+2025-05-02 20:03:12,878 - INFO - 127.0.0.1 - - [02/May/2025 20:03:12] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-02 20:03:12,879 - INFO - 127.0.0.1 - - [02/May/2025 20:03:12] "[33mGET /api/challans HTTP/1.1[0m" 404 -
+2025-05-02 20:03:13,906 - INFO - 127.0.0.1 - - [02/May/2025 20:03:13] "GET / HTTP/1.1" 200 -
+2025-05-02 20:03:13,934 - INFO - 127.0.0.1 - - [02/May/2025 20:03:13] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-02 20:03:13,941 - INFO - 127.0.0.1 - - [02/May/2025 20:03:13] "[33mGET /api/challans HTTP/1.1[0m" 404 -
+2025-05-02 20:03:23,712 - INFO - 127.0.0.1 - - [02/May/2025 20:03:23] "GET / HTTP/1.1" 200 -
+2025-05-02 20:03:23,742 - INFO - 127.0.0.1 - - [02/May/2025 20:03:23] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-02 20:03:23,744 - INFO - 127.0.0.1 - - [02/May/2025 20:03:23] "[33mGET /api/challans HTTP/1.1[0m" 404 -
+2025-05-02 20:04:35,618 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-02 20:04:35,832 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-02 20:04:36,057 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-02 20:04:47,541 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-02 20:04:47,758 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-02 20:04:47,979 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-02 20:04:52,269 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-02 20:04:52,501 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-02 20:04:52,722 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-02 20:04:55,386 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-02 20:04:55,609 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-02 20:04:55,820 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-02 20:04:57,673 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-02 20:04:57,887 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-02 20:04:58,087 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-02 20:04:58,751 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-02 20:04:58,950 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-02 20:04:59,169 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-02 20:05:01,645 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-02 20:05:02,210 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 20:05:02,470 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 20:05:11,861 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-02 20:05:12,893 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-02 20:05:13,125 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-02 20:05:16,694 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-02 20:05:16,921 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-02 20:05:17,153 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-02 20:05:20,926 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-02 20:05:21,142 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-02 20:05:21,368 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-02 20:05:25,013 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-02 20:05:25,424 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-02 20:05:25,622 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-02 20:05:27,664 - INFO - Speed data and detection results saved successfully
+2025-05-02 20:05:27,664 - INFO - Total frames processed: 304
+2025-05-02 20:05:27,665 - INFO - Total vehicles detected: 28
+2025-05-02 20:05:27,666 - INFO - Speeding vehicles: 11
+2025-05-02 20:05:27,667 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-02 20:05:27,781 - INFO - Speed detection completed
+2025-05-02 20:16:58,063 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-02 20:16:58,295 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-02 20:16:58,489 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-02 20:17:09,601 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-02 20:17:09,792 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-02 20:17:09,988 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-02 20:17:14,213 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-02 20:17:14,420 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-02 20:17:14,612 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-02 20:17:17,205 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-02 20:17:17,425 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-02 20:17:17,632 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-02 20:17:19,359 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-02 20:17:19,577 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-02 20:17:19,786 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-02 20:17:20,368 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-02 20:17:20,571 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-02 20:17:20,763 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-02 20:17:23,195 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-02 20:17:23,708 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 20:17:23,935 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 20:17:34,037 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-02 20:17:35,062 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-02 20:17:35,273 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-02 20:17:38,724 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-02 20:17:38,942 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-02 20:17:39,162 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-02 20:17:42,797 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-02 20:17:43,023 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-02 20:17:43,236 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-02 20:17:46,712 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-02 20:17:47,101 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-02 20:17:47,311 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-02 20:17:49,303 - INFO - Speed data and detection results saved successfully
+2025-05-02 20:17:49,303 - INFO - Total frames processed: 304
+2025-05-02 20:17:49,303 - INFO - Total vehicles detected: 28
+2025-05-02 20:17:49,304 - INFO - Speeding vehicles: 11
+2025-05-02 20:17:49,304 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-02 20:17:49,387 - INFO - Speed detection completed
+2025-05-02 20:22:00,393 - INFO - Speed data and detection results saved successfully
+2025-05-02 20:22:00,394 - INFO - Total frames processed: 33
+2025-05-02 20:22:00,395 - INFO - Total vehicles detected: 5
+2025-05-02 20:22:00,395 - INFO - Speeding vehicles: 0
+2025-05-02 20:22:00,396 - INFO - Speeding vehicle IDs: []
+2025-05-02 20:22:00,474 - INFO - Speed detection completed
+2025-05-02 20:24:24,343 - INFO - Speed data and detection results saved successfully
+2025-05-02 20:24:24,344 - INFO - Total frames processed: 15
+2025-05-02 20:24:24,345 - INFO - Total vehicles detected: 3
+2025-05-02 20:24:24,346 - INFO - Speeding vehicles: 0
+2025-05-02 20:24:24,346 - INFO - Speeding vehicle IDs: []
+2025-05-02 20:24:24,444 - INFO - Speed detection completed
+2025-05-02 20:25:42,474 - INFO - Speed data and detection results saved successfully
+2025-05-02 20:25:42,475 - INFO - Total frames processed: 13
+2025-05-02 20:25:42,476 - INFO - Total vehicles detected: 3
+2025-05-02 20:25:42,476 - INFO - Speeding vehicles: 0
+2025-05-02 20:25:42,476 - INFO - Speeding vehicle IDs: []
+2025-05-02 20:25:42,555 - INFO - Speed detection completed
+2025-05-02 20:29:46,190 - ERROR - Could not open video file
+2025-05-02 20:37:56,093 - INFO - Speed data and detection results saved successfully
+2025-05-02 20:37:56,094 - INFO - Total frames processed: 47
+2025-05-02 20:37:56,094 - INFO - Total vehicles detected: 6
+2025-05-02 20:37:56,095 - INFO - Speeding vehicles: 1
+2025-05-02 20:37:56,096 - INFO - Speeding vehicle IDs: [5]
+2025-05-02 20:37:56,154 - INFO - Speed detection completed
+2025-05-02 20:45:34,412 - INFO - Speed data and detection results saved successfully
+2025-05-02 20:45:34,414 - INFO - Total frames processed: 8
+2025-05-02 20:45:34,415 - INFO - Total vehicles detected: 3
+2025-05-02 20:45:34,416 - INFO - Speeding vehicles: 0
+2025-05-02 20:45:34,416 - INFO - Speeding vehicle IDs: []
+2025-05-02 20:45:34,468 - INFO - Speed detection completed
+2025-05-02 21:02:51,100 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-02 21:02:51,303 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-02 21:02:51,512 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-02 21:03:02,280 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-02 21:03:02,485 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-02 21:03:02,681 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-02 21:03:06,672 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-02 21:03:06,883 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-02 21:03:07,098 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-02 21:03:09,683 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-02 21:03:09,916 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-02 21:03:10,149 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-02 21:03:12,031 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-02 21:03:12,215 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-02 21:03:12,432 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-02 21:03:13,007 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-02 21:03:13,220 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-02 21:03:13,432 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-02 21:03:15,786 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-02 21:03:16,151 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 21:03:16,364 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 21:03:25,417 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-02 21:03:26,338 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-02 21:03:26,530 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-02 21:03:29,852 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-02 21:03:30,047 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-02 21:03:30,234 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-02 21:03:33,734 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-02 21:03:33,912 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-02 21:03:34,121 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-02 21:03:37,611 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-02 21:03:38,024 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-02 21:03:38,254 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-02 21:03:40,267 - INFO - Speed data and detection results saved successfully
+2025-05-02 21:03:40,267 - INFO - Total frames processed: 304
+2025-05-02 21:03:40,268 - INFO - Total vehicles detected: 28
+2025-05-02 21:03:40,268 - INFO - Speeding vehicles: 11
+2025-05-02 21:03:40,268 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-02 21:03:40,343 - INFO - Speed detection completed
+2025-05-02 22:43:20,644 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-02 22:43:20,750 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-02 22:43:20,876 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-02 22:43:26,631 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-02 22:43:26,726 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-02 22:43:26,833 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-02 22:43:28,946 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-02 22:43:29,047 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-02 22:43:29,145 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-02 22:43:30,499 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-02 22:43:30,613 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-02 22:43:30,735 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-02 22:43:31,644 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-02 22:43:31,763 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-02 22:43:31,879 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-02 22:43:32,180 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-02 22:43:32,277 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-02 22:43:32,397 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-02 22:43:33,680 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-02 22:43:33,895 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 22:43:33,998 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-02 22:43:38,609 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-02 22:43:39,108 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-02 22:43:39,209 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-02 22:43:40,928 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-02 22:43:41,028 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-02 22:43:41,120 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-02 22:43:42,906 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-02 22:43:43,005 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-02 22:43:43,104 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-02 22:43:44,909 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-02 22:43:45,110 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-02 22:43:45,210 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-02 22:43:46,215 - INFO - Speed data and detection results saved successfully
+2025-05-02 22:43:46,216 - INFO - Total frames processed: 304
+2025-05-02 22:43:46,216 - INFO - Total vehicles detected: 28
+2025-05-02 22:43:46,217 - INFO - Speeding vehicles: 11
+2025-05-02 22:43:46,217 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-02 22:43:46,245 - INFO - Speed detection completed
+2025-05-03 11:22:40,123 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-03 11:22:40,244 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-03 11:22:40,352 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-03 11:22:46,358 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-03 11:22:46,466 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-03 11:22:46,586 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-03 11:22:48,771 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-03 11:22:48,878 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-03 11:22:48,987 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-03 11:22:50,392 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-03 11:22:50,516 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-03 11:22:50,622 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-03 11:22:51,574 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-03 11:22:51,690 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-03 11:22:51,796 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-03 11:22:52,108 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-03 11:22:52,216 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-03 11:22:52,327 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-03 11:22:53,795 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-03 11:22:54,003 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-03 11:22:54,112 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-03 11:22:59,217 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-03 11:22:59,751 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-03 11:22:59,862 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-03 11:23:01,710 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-03 11:23:01,841 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-03 11:23:01,975 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-03 11:23:04,020 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-03 11:23:04,135 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-03 11:23:04,248 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-03 11:23:06,148 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-03 11:23:06,361 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-03 11:23:06,488 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-03 11:23:07,581 - INFO - Speed data and detection results saved successfully
+2025-05-03 11:23:07,582 - INFO - Total frames processed: 304
+2025-05-03 11:23:07,582 - INFO - Total vehicles detected: 28
+2025-05-03 11:23:07,582 - INFO - Speeding vehicles: 11
+2025-05-03 11:23:07,582 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-03 11:23:07,615 - INFO - Speed detection completed
+2025-05-03 13:06:09,825 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-03 13:06:09,929 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-03 13:06:10,021 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-03 13:06:29,247 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-03 13:06:29,382 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-03 13:06:29,484 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-03 13:06:31,021 - INFO - Speed data and detection results saved successfully
+2025-05-03 13:06:31,021 - INFO - Total frames processed: 128
+2025-05-03 13:06:31,022 - INFO - Total vehicles detected: 10
+2025-05-03 13:06:31,022 - INFO - Speeding vehicles: 3
+2025-05-03 13:06:31,022 - INFO - Speeding vehicle IDs: [5, 7, 9]
+2025-05-03 13:06:31,066 - INFO - Speed detection completed
+2025-05-03 17:45:55,357 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-03 17:45:55,592 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-03 17:45:55,835 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-03 17:46:07,475 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-03 17:46:07,705 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-03 17:46:07,942 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-03 17:46:12,464 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-03 17:46:12,678 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-03 17:46:12,905 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-03 17:46:15,735 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-03 17:46:15,960 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-03 17:46:16,181 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-03 17:46:18,113 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-03 17:46:18,339 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-03 17:46:18,586 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-03 17:46:19,319 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-03 17:46:19,565 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-03 17:46:19,801 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-03 17:46:22,419 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-03 17:46:22,902 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-03 17:46:23,153 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-03 17:46:32,831 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-03 17:46:33,891 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-03 17:46:34,124 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-03 17:46:37,635 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-03 17:46:37,866 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-03 17:46:38,102 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-03 17:46:41,795 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-03 17:46:42,007 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-03 17:46:42,251 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-03 17:46:46,023 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-03 17:46:46,471 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-03 17:46:46,700 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-03 17:46:48,808 - INFO - Speed data and detection results saved successfully
+2025-05-03 17:46:48,809 - INFO - Total frames processed: 304
+2025-05-03 17:46:48,811 - INFO - Total vehicles detected: 28
+2025-05-03 17:46:48,812 - INFO - Speeding vehicles: 11
+2025-05-03 17:46:48,813 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-03 17:46:48,922 - INFO - Speed detection completed
+2025-05-06 22:12:23,217 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-05-06 22:12:24,821 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 22:12:24,822 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-06 22:12:24,834 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-06 22:12:29,172 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-05-06 22:12:30,904 - WARNING -  * Debugger is active!
+2025-05-06 22:12:30,908 - INFO -  * Debugger PIN: 104-964-678
+2025-05-06 22:12:34,025 - INFO - 127.0.0.1 - - [06/May/2025 22:12:34] "GET / HTTP/1.1" 200 -
+2025-05-06 22:12:41,906 - INFO - 127.0.0.1 - - [06/May/2025 22:12:41] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-06 22:12:46,398 - INFO - 127.0.0.1 - - [06/May/2025 22:12:46] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-06 22:13:13,034 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-06 22:13:13,131 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-06 22:13:13,235 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-06 22:13:18,222 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-06 22:13:18,317 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-06 22:13:18,407 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-06 22:13:20,399 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-06 22:13:20,503 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-06 22:13:20,606 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-06 22:13:21,791 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-06 22:13:21,903 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-06 22:13:21,998 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-06 22:13:22,787 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-06 22:13:22,879 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-06 22:13:22,981 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-06 22:13:23,268 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-06 22:13:23,356 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-06 22:13:23,449 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-06 22:13:24,549 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-06 22:13:24,736 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-06 22:13:24,828 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-06 22:13:28,999 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-06 22:13:29,468 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-06 22:13:29,557 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-06 22:13:31,087 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-06 22:13:31,179 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-06 22:13:31,278 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-06 22:13:32,881 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-06 22:13:32,974 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-06 22:13:33,090 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-06 22:13:34,762 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-06 22:13:34,969 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-06 22:13:35,059 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-06 22:13:35,983 - INFO - Speed data and detection results saved successfully
+2025-05-06 22:13:35,983 - INFO - Total frames processed: 304
+2025-05-06 22:13:35,984 - INFO - Total vehicles detected: 28
+2025-05-06 22:13:35,984 - INFO - Speeding vehicles: 11
+2025-05-06 22:13:35,984 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-06 22:13:36,057 - INFO - Speed detection completed
+2025-05-08 22:59:31,467 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-05-08 22:59:44,656 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-08 22:59:44,791 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-08 22:59:44,911 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-08 22:59:46,977 - INFO - Speed data and detection results saved successfully
+2025-05-08 22:59:46,977 - INFO - Total frames processed: 71
+2025-05-08 22:59:46,978 - INFO - Total vehicles detected: 6
+2025-05-08 22:59:46,978 - INFO - Speeding vehicles: 1
+2025-05-08 22:59:46,979 - INFO - Speeding vehicle IDs: [5]
+2025-05-08 22:59:47,038 - INFO - Speed detection completed
+2025-05-08 22:59:57,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 22:59:57,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 23:00:04,563 - INFO - 127.0.0.1 - - [08/May/2025 23:00:04] "GET / HTTP/1.1" 200 -
+2025-05-08 23:00:12,168 - INFO - 127.0.0.1 - - [08/May/2025 23:00:12] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-08 23:00:13,226 - INFO - 127.0.0.1 - - [08/May/2025 23:00:13] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-08 23:00:15,435 - INFO - 127.0.0.1 - - [08/May/2025 23:00:15] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-08 23:00:19,767 - INFO - 127.0.0.1 - - [08/May/2025 23:00:19] "GET / HTTP/1.1" 200 -
+2025-05-08 23:00:22,462 - INFO - 127.0.0.1 - - [08/May/2025 23:00:22] "[33mGET /api/plates HTTP/1.1[0m" 404 -
+2025-05-08 23:00:45,571 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-08 23:00:45,679 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-08 23:00:45,809 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-08 23:00:52,616 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-08 23:00:52,714 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-08 23:00:52,832 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-08 23:00:55,348 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-08 23:00:55,489 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-08 23:00:55,597 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-08 23:00:57,134 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-08 23:00:57,244 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-08 23:00:57,363 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-08 23:00:58,374 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-08 23:00:58,506 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-08 23:00:58,650 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-08 23:00:58,961 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-08 23:00:59,082 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-08 23:00:59,213 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-08 23:01:00,592 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-08 23:01:00,829 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-08 23:01:00,952 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-08 23:01:06,418 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-08 23:01:06,999 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-08 23:01:07,114 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-08 23:01:09,077 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-08 23:01:09,235 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-08 23:01:09,350 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-08 23:01:11,447 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-08 23:01:11,577 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-08 23:01:11,700 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-08 23:01:13,915 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-08 23:01:14,163 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-08 23:01:14,292 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-08 23:01:15,563 - INFO - Speed data and detection results saved successfully
+2025-05-08 23:01:15,563 - INFO - Total frames processed: 304
+2025-05-08 23:01:15,564 - INFO - Total vehicles detected: 28
+2025-05-08 23:01:15,564 - INFO - Speeding vehicles: 11
+2025-05-08 23:01:15,564 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-08 23:01:15,603 - INFO - Speed detection completed
+2025-05-09 10:02:44,002 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-09 10:02:44,099 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-09 10:02:44,217 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-09 10:02:49,465 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-09 10:02:49,566 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-09 10:02:49,676 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-09 10:02:51,763 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-09 10:02:51,885 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-09 10:02:51,978 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-09 10:02:53,256 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-09 10:02:53,373 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-09 10:02:53,484 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-09 10:02:54,288 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-09 10:02:54,391 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-09 10:02:54,489 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-09 10:02:54,803 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-09 10:02:54,913 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-09 10:02:55,015 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-09 10:02:56,169 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-09 10:02:56,422 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 10:02:56,536 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 10:03:00,980 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-09 10:03:01,465 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-09 10:03:01,571 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-09 10:03:03,211 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-09 10:03:03,310 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-09 10:03:03,409 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-09 10:03:05,143 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-09 10:03:05,262 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-09 10:03:05,363 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-09 10:03:07,136 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-09 10:03:07,339 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-09 10:03:07,434 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-09 10:03:08,441 - INFO - Speed data and detection results saved successfully
+2025-05-09 10:03:08,441 - INFO - Total frames processed: 304
+2025-05-09 10:03:08,442 - INFO - Total vehicles detected: 28
+2025-05-09 10:03:08,442 - INFO - Speeding vehicles: 11
+2025-05-09 10:03:08,442 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-09 10:03:08,531 - INFO - Speed detection completed
+2025-05-09 11:27:47,669 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-09 11:27:47,768 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-09 11:27:47,864 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-09 11:27:52,871 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-09 11:27:52,960 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-09 11:27:53,056 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-09 11:27:54,957 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-09 11:27:55,060 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-09 11:27:55,158 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-09 11:27:56,359 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-09 11:27:56,471 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-09 11:27:56,564 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-09 11:27:57,395 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-09 11:27:57,506 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-09 11:27:57,608 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-09 11:27:57,893 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-09 11:27:57,992 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-09 11:27:58,101 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-09 11:27:59,243 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-09 11:27:59,443 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 11:27:59,536 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 11:28:03,845 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-09 11:28:04,307 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-09 11:28:04,399 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-09 11:28:05,873 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-09 11:28:05,979 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-09 11:28:06,078 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-09 11:28:07,686 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-09 11:28:07,791 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-09 11:28:07,891 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-09 11:28:09,532 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-09 11:28:09,723 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-09 11:28:09,827 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-09 11:28:10,747 - INFO - Speed data and detection results saved successfully
+2025-05-09 11:28:10,747 - INFO - Total frames processed: 304
+2025-05-09 11:28:10,747 - INFO - Total vehicles detected: 28
+2025-05-09 11:28:10,747 - INFO - Speeding vehicles: 11
+2025-05-09 11:28:10,748 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-09 11:28:10,820 - INFO - Speed detection completed
+2025-05-09 11:48:32,870 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-09 11:48:33,006 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-09 11:48:33,121 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-09 11:48:39,183 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-09 11:48:39,293 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-09 11:48:39,402 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-09 11:48:41,774 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-09 11:48:41,894 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-09 11:48:42,002 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-09 11:48:43,268 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-09 11:48:43,378 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-09 11:48:43,499 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-09 11:48:44,414 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-09 11:48:44,537 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-09 11:48:44,657 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-09 11:48:45,046 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-09 11:48:45,189 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-09 11:48:45,320 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-09 11:48:46,849 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-09 11:48:47,060 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 11:48:47,186 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 11:48:52,162 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-09 11:48:52,756 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-09 11:48:52,885 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-09 11:48:54,629 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-09 11:48:54,751 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-09 11:48:54,861 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-09 11:48:56,875 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-09 11:48:56,969 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-09 11:48:57,071 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-09 11:48:58,923 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-09 11:48:59,123 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-09 11:48:59,277 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-09 11:49:00,211 - INFO - Speed data and detection results saved successfully
+2025-05-09 11:49:00,211 - INFO - Total frames processed: 304
+2025-05-09 11:49:00,211 - INFO - Total vehicles detected: 28
+2025-05-09 11:49:00,211 - INFO - Speeding vehicles: 11
+2025-05-09 11:49:00,212 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-09 11:49:00,258 - INFO - Speed detection completed
+2025-05-09 15:07:09,349 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-09 15:07:09,477 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-09 15:07:09,628 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-09 15:07:16,365 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-09 15:07:16,499 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-09 15:07:16,646 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-09 15:07:19,117 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-09 15:07:19,246 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-09 15:07:19,374 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-09 15:07:20,936 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-09 15:07:21,062 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-09 15:07:21,187 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-09 15:07:22,228 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-09 15:07:22,363 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-09 15:07:22,507 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-09 15:07:22,878 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-09 15:07:22,996 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-09 15:07:23,125 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-09 15:07:24,629 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-09 15:07:24,897 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:07:25,032 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:07:30,683 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-09 15:07:31,372 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-09 15:07:31,519 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-09 15:07:33,805 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-09 15:07:33,933 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-09 15:07:34,062 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-09 15:07:36,268 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-09 15:07:36,410 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-09 15:07:36,546 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-09 15:07:38,681 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-09 15:07:38,913 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-09 15:07:39,083 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-09 15:07:40,305 - INFO - Speed data and detection results saved successfully
+2025-05-09 15:07:40,305 - INFO - Total frames processed: 304
+2025-05-09 15:07:40,305 - INFO - Total vehicles detected: 28
+2025-05-09 15:07:40,305 - INFO - Speeding vehicles: 11
+2025-05-09 15:07:40,306 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-09 15:07:40,354 - INFO - Speed detection completed
+2025-05-09 15:18:33,466 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-09 15:18:33,636 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-09 15:18:33,770 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-09 15:18:40,554 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-09 15:18:40,697 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-09 15:18:40,820 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-09 15:18:43,172 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-09 15:18:43,322 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-09 15:18:43,455 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-09 15:18:45,009 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-09 15:18:45,144 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-09 15:18:45,279 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-09 15:18:46,394 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-09 15:18:46,514 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-09 15:18:46,645 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-09 15:18:47,009 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-09 15:18:47,141 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-09 15:18:47,262 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-09 15:18:48,624 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-09 15:18:48,884 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:18:49,008 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:18:54,681 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-09 15:18:55,284 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-09 15:18:55,420 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-09 15:18:57,457 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-09 15:18:57,589 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-09 15:18:57,724 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-09 15:18:59,918 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-09 15:19:00,047 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-09 15:19:00,170 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-09 15:19:02,381 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-09 15:19:02,631 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-09 15:19:02,769 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-09 15:19:04,031 - INFO - Speed data and detection results saved successfully
+2025-05-09 15:19:04,032 - INFO - Total frames processed: 304
+2025-05-09 15:19:04,032 - INFO - Total vehicles detected: 28
+2025-05-09 15:19:04,032 - INFO - Speeding vehicles: 11
+2025-05-09 15:19:04,033 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-09 15:19:04,098 - INFO - Speed detection completed
+2025-05-09 15:21:19,355 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-09 15:21:19,466 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-09 15:21:19,596 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-09 15:21:26,047 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-09 15:21:26,178 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-09 15:21:26,323 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-09 15:21:28,629 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-09 15:21:28,751 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-09 15:21:28,876 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-09 15:21:30,271 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-09 15:21:30,393 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-09 15:21:30,528 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-09 15:21:31,516 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-09 15:21:31,626 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-09 15:21:31,756 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-09 15:21:32,114 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-09 15:21:32,224 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-09 15:21:32,339 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-09 15:21:33,632 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-09 15:21:33,881 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:21:33,998 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:21:38,912 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-09 15:21:39,429 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-09 15:21:39,534 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-09 15:21:41,289 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-09 15:21:41,395 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-09 15:21:41,540 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-09 15:21:43,417 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-09 15:21:43,527 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-09 15:21:43,648 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-09 15:21:45,744 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-09 15:21:45,964 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-09 15:21:46,070 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-09 15:21:47,154 - INFO - Speed data and detection results saved successfully
+2025-05-09 15:21:47,154 - INFO - Total frames processed: 304
+2025-05-09 15:21:47,154 - INFO - Total vehicles detected: 28
+2025-05-09 15:21:47,154 - INFO - Speeding vehicles: 11
+2025-05-09 15:21:47,154 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-09 15:21:47,197 - INFO - Speed detection completed
+2025-05-09 15:24:36,297 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-09 15:24:36,405 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-09 15:24:36,502 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-09 15:24:42,584 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-09 15:24:42,714 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-09 15:24:42,819 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-09 15:24:45,069 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-09 15:24:45,175 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-09 15:24:45,290 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-09 15:24:46,672 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-09 15:24:46,772 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-09 15:24:46,892 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-09 15:24:47,838 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-09 15:24:47,937 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-09 15:24:48,038 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-09 15:24:48,354 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-09 15:24:48,459 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-09 15:24:48,589 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-09 15:24:49,936 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-09 15:24:50,152 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:24:50,268 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:24:55,354 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-09 15:24:56,255 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-09 15:24:56,442 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-09 15:24:59,671 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-09 15:24:59,879 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-09 15:25:00,120 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-09 15:25:03,761 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-09 15:25:04,019 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-09 15:25:04,272 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-09 15:25:10,664 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-09 15:25:11,612 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-09 15:25:12,059 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-09 15:25:16,817 - INFO - Speed data and detection results saved successfully
+2025-05-09 15:25:16,818 - INFO - Total frames processed: 304
+2025-05-09 15:25:16,819 - INFO - Total vehicles detected: 28
+2025-05-09 15:25:16,820 - INFO - Speeding vehicles: 11
+2025-05-09 15:25:16,821 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-09 15:25:16,904 - INFO - Speed detection completed
+2025-05-09 15:29:00,351 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-09 15:29:00,556 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-09 15:29:00,765 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-09 15:29:12,287 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-09 15:29:12,502 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-09 15:29:12,756 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-09 15:29:17,443 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-09 15:29:17,665 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-09 15:29:17,863 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-09 15:29:20,456 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-09 15:29:20,713 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-09 15:29:20,916 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-09 15:29:22,658 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-09 15:29:22,867 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-09 15:29:23,081 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-09 15:29:23,694 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-09 15:29:23,901 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-09 15:29:24,104 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-09 15:29:26,391 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-09 15:29:26,810 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:29:27,014 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-09 15:29:37,605 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-09 15:29:38,716 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-09 15:29:38,937 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-09 15:29:47,072 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-09 15:29:47,561 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-09 15:29:49,046 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-09 15:29:59,602 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-09 15:30:00,077 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-09 15:30:00,523 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-09 15:30:14,010 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-09 15:30:15,212 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-09 15:30:16,094 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-09 15:30:22,351 - INFO - Speed data and detection results saved successfully
+2025-05-09 15:30:22,352 - INFO - Total frames processed: 304
+2025-05-09 15:30:22,354 - INFO - Total vehicles detected: 28
+2025-05-09 15:30:22,355 - INFO - Speeding vehicles: 11
+2025-05-09 15:30:22,357 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-09 15:30:22,432 - INFO - Speed detection completed
+2025-05-11 10:48:25,121 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-11 10:48:25,331 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-11 10:48:25,519 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-11 10:48:37,864 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-11 10:48:38,063 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-11 10:48:38,266 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-11 10:48:42,559 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-11 10:48:42,797 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-11 10:48:43,006 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-11 10:48:45,609 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-11 10:48:45,855 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-11 10:48:46,068 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-11 10:48:47,821 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-11 10:48:48,028 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-11 10:48:48,235 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-11 10:48:48,816 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-11 10:48:49,012 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-11 10:48:49,221 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-11 10:48:51,747 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-11 10:48:52,147 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-11 10:48:52,347 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-11 10:49:01,338 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-11 10:49:02,772 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-11 10:49:03,129 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-11 10:49:07,431 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-11 10:49:07,717 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-11 10:49:07,977 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-11 10:49:11,883 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-11 10:49:12,091 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-11 10:49:12,348 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-11 10:49:16,218 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-11 10:49:16,629 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-11 10:49:16,850 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-11 10:49:18,973 - INFO - Speed data and detection results saved successfully
+2025-05-11 10:49:18,974 - INFO - Total frames processed: 304
+2025-05-11 10:49:18,974 - INFO - Total vehicles detected: 28
+2025-05-11 10:49:18,975 - INFO - Speeding vehicles: 11
+2025-05-11 10:49:18,975 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-11 10:49:19,099 - INFO - Speed detection completed
+2025-05-11 10:51:41,189 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-11 10:51:41,292 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-11 10:51:41,390 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-11 10:51:47,002 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-11 10:51:47,097 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-11 10:51:47,206 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-11 10:51:49,307 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-11 10:51:49,407 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-11 10:51:49,506 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-11 10:51:50,768 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-11 10:51:50,864 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-11 10:51:50,971 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-11 10:51:51,868 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-11 10:51:51,964 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-11 10:51:52,063 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-11 10:51:52,367 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-11 10:51:52,470 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-11 10:51:52,578 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-11 10:51:53,786 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-11 10:51:53,989 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-11 10:51:54,092 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-11 10:51:58,755 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-11 10:51:59,254 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-11 10:51:59,352 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-11 10:52:01,102 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-11 10:52:01,210 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-11 10:52:01,329 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-11 10:52:03,282 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-11 10:52:03,395 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-11 10:52:03,508 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-11 10:52:05,340 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-11 10:52:05,539 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-11 10:52:05,640 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-11 10:52:06,658 - INFO - Speed data and detection results saved successfully
+2025-05-11 10:52:06,658 - INFO - Total frames processed: 304
+2025-05-11 10:52:06,659 - INFO - Total vehicles detected: 28
+2025-05-11 10:52:06,659 - INFO - Speeding vehicles: 11
+2025-05-11 10:52:06,659 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-11 10:52:06,699 - INFO - Speed detection completed
+2025-05-11 10:53:46,355 - INFO - Speeding vehicle 5 detected! Speed: 80.2 km/h
+2025-05-11 10:53:46,460 - INFO - Speeding vehicle 5 detected! Speed: 80.6 km/h
+2025-05-11 10:53:46,584 - INFO - Speeding vehicle 5 detected! Speed: 80.9 km/h
+2025-05-11 10:53:52,426 - INFO - Speeding vehicle 7 detected! Speed: 81.8 km/h
+2025-05-11 10:53:52,523 - INFO - Speeding vehicle 7 detected! Speed: 83.9 km/h
+2025-05-11 10:53:52,628 - INFO - Speeding vehicle 7 detected! Speed: 86.0 km/h
+2025-05-11 10:53:54,798 - INFO - Speeding vehicle 9 detected! Speed: 80.9 km/h
+2025-05-11 10:53:54,915 - INFO - Speeding vehicle 9 detected! Speed: 82.0 km/h
+2025-05-11 10:53:55,028 - INFO - Speeding vehicle 9 detected! Speed: 82.7 km/h
+2025-05-11 10:53:56,467 - INFO - Speeding vehicle 10 detected! Speed: 80.5 km/h
+2025-05-11 10:53:56,579 - INFO - Speeding vehicle 10 detected! Speed: 81.7 km/h
+2025-05-11 10:53:56,701 - INFO - Speeding vehicle 10 detected! Speed: 82.6 km/h
+2025-05-11 10:53:57,680 - INFO - Speeding vehicle 11 detected! Speed: 80.1 km/h
+2025-05-11 10:53:57,799 - INFO - Speeding vehicle 11 detected! Speed: 80.6 km/h
+2025-05-11 10:53:57,912 - INFO - Speeding vehicle 11 detected! Speed: 80.9 km/h
+2025-05-11 10:53:58,262 - INFO - Speeding vehicle 12 detected! Speed: 80.1 km/h
+2025-05-11 10:53:58,376 - INFO - Speeding vehicle 12 detected! Speed: 81.3 km/h
+2025-05-11 10:53:58,499 - INFO - Speeding vehicle 12 detected! Speed: 82.4 km/h
+2025-05-11 10:53:59,801 - INFO - Speeding vehicle 17 detected! Speed: 83.0 km/h
+2025-05-11 10:54:00,017 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-11 10:54:00,125 - INFO - Speeding vehicle 17 detected! Speed: 90.0 km/h
+2025-05-11 10:54:05,229 - INFO - Speeding vehicle 21 detected! Speed: 86.3 km/h
+2025-05-11 10:54:05,777 - INFO - Speeding vehicle 21 detected! Speed: 81.9 km/h
+2025-05-11 10:54:05,896 - INFO - Speeding vehicle 21 detected! Speed: 84.9 km/h
+2025-05-11 10:54:07,691 - INFO - Speeding vehicle 23 detected! Speed: 80.4 km/h
+2025-05-11 10:54:07,813 - INFO - Speeding vehicle 23 detected! Speed: 83.0 km/h
+2025-05-11 10:54:07,927 - INFO - Speeding vehicle 23 detected! Speed: 81.3 km/h
+2025-05-11 10:54:09,860 - INFO - Speeding vehicle 24 detected! Speed: 86.6 km/h
+2025-05-11 10:54:09,970 - INFO - Speeding vehicle 24 detected! Speed: 93.9 km/h
+2025-05-11 10:54:10,076 - INFO - Speeding vehicle 24 detected! Speed: 90.3 km/h
+2025-05-11 10:54:11,991 - INFO - Speeding vehicle 27 detected! Speed: 91.0 km/h
+2025-05-11 10:54:12,212 - INFO - Speeding vehicle 27 detected! Speed: 93.3 km/h
+2025-05-11 10:54:12,342 - INFO - Speeding vehicle 27 detected! Speed: 103.0 km/h
+2025-05-11 10:54:13,424 - INFO - Speed data and detection results saved successfully
+2025-05-11 10:54:13,425 - INFO - Total frames processed: 304
+2025-05-11 10:54:13,425 - INFO - Total vehicles detected: 28
+2025-05-11 10:54:13,425 - INFO - Speeding vehicles: 11
+2025-05-11 10:54:13,426 - INFO - Speeding vehicle IDs: [5, 7, 9, 10, 11, 12, 17, 21, 23, 24, 27]
+2025-05-11 10:54:13,466 - INFO - Speed detection completed

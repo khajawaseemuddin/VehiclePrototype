@@ -1,0 +1,19 @@
+{
+    "total_frames": 304,
+    "total_vehicles": 28,
+    "speeding_vehicles": 11,
+    "vehicle_details": {},
+    "speeding_vehicle_ids": [
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        17,
+        21,
+        23,
+        24,
+        27
+    ]
+}

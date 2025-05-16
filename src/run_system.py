@@ -16,6 +16,12 @@ def run_license_plate_detection():
     subprocess.run(['python', 'src/license_plate_detection.py'])
     print("License plate detection completed!")
 
+def run_improved_license_plate_detection():
+    """Run the improved license plate detection with Fast-ALPR"""
+    print("Starting improved license plate detection with Fast-ALPR...")
+    subprocess.run(['python', 'src/run_improved_detection.py'])
+    print("Improved license plate detection completed!")
+
 def run_challan_system():
     """Run the challan generation system"""
     print("Starting challan generation...")
@@ -30,6 +36,7 @@ if __name__ == '__main__':
     # Create necessary directories
     os.makedirs('outputs/speeding', exist_ok=True)
     os.makedirs('outputs/plates', exist_ok=True)
+    os.makedirs('outputs/improved_plates', exist_ok=True)
     os.makedirs('outputs/challans', exist_ok=True)
     os.makedirs('src/static/speeding', exist_ok=True)
     
@@ -45,10 +52,13 @@ if __name__ == '__main__':
     # Step 2: Run license plate detection
     run_license_plate_detection()
     
-    # Step 3: Generate challans
+    # Step 3: Run improved license plate detection
+    run_improved_license_plate_detection()
+    
+    # Step 4: Generate challans
     run_challan_system()
     
     print("All processing completed! Starting web interface...")
     
-    # Step 4: Start web interface
+    # Step 5: Start web interface
     run_web_app() 

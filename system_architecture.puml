@@ -1,0 +1,109 @@
+@startuml System Architecture
+
+' Style definitions
+skinparam componentStyle uml2
+skinparam backgroundColor white
+skinparam component {
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+    ArrowColor DarkBlue
+}
+
+' Title
+title Vehicle Detection System Architecture
+
+' Main components
+package "Frontend" {
+    [Web Interface] as UI
+    [Mobile App] as Mobile
+    [Admin Dashboard] as Admin
+}
+
+package "Backend Services" {
+    [API Gateway] as Gateway
+    [Authentication Service] as Auth
+    [Vehicle Detection Service] as Detection
+    [Alert Management Service] as Alert
+    [User Management Service] as User
+    [Analytics Service] as Analytics
+}
+
+package "Data Storage" {
+    database "PostgreSQL" as DB {
+        [User Data]
+        [Vehicle Data]
+        [Alert History]
+        [System Logs]
+    }
+    database "Redis Cache" as Cache
+    database "File Storage" as Storage
+}
+
+package "External Services" {
+    [Email Service] as Email
+    [SMS Gateway] as SMS
+    [Map Service] as Maps
+    [Weather API] as Weather
+}
+
+package "Security" {
+    [Firewall] as Firewall
+    [Load Balancer] as LB
+    [SSL/TLS] as SSL
+}
+
+' Relationships
+UI --> Gateway
+Mobile --> Gateway
+Admin --> Gateway
+
+Gateway --> Auth
+Gateway --> Detection
+Gateway --> Alert
+Gateway --> User
+Gateway --> Analytics
+
+Auth --> DB
+Detection --> DB
+Alert --> DB
+User --> DB
+Analytics --> DB
+
+Detection --> Cache
+Alert --> Cache
+Analytics --> Cache
+
+Detection --> Storage
+Alert --> Storage
+
+Alert --> Email
+Alert --> SMS
+Detection --> Maps
+Detection --> Weather
+
+Firewall --> LB
+LB --> Gateway
+SSL --> Gateway
+
+' Notes
+note right of UI
+  Responsive web interface
+  for system monitoring
+end note
+
+note right of Detection
+  Core vehicle detection
+  and tracking logic
+end note
+
+note right of DB
+  Primary data storage
+  with backup and recovery
+end note
+
+note right of Security
+  Enterprise-grade
+  security measures
+end note
+
+@enduml 

@@ -1,0 +1,288 @@
+2025-04-30 21:56:48,048 - ERROR - Error loading plate data: [Errno 2] No such file or directory: 'outputs\\plates\\plate_data.json'
+2025-04-30 21:56:48,049 - INFO - Generated 0 challans successfully
+2025-04-30 21:56:48,050 - INFO - Exported challan data successfully
+2025-04-30 21:56:48,051 - INFO - Challan generation completed!
+2025-04-30 21:57:39,294 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-04-30 21:57:39,318 - ERROR - Error generating all challans: name 'BASE_SPEED_LIMIT' is not defined
+2025-04-30 21:57:39,319 - ERROR - Error exporting challan data: 'list' object has no attribute 'get'
+2025-04-30 21:57:39,320 - INFO - Challan generation completed!
+2025-04-30 21:59:11,451 - INFO - Generating challan for vehicle ID: 17
+2025-04-30 21:59:11,453 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-04-30 22:00:05,887 - INFO - Generating challan for vehicle ID: 17
+2025-04-30 22:00:05,914 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-04-30 22:00:50,308 - INFO - Generating challan for vehicle ID: 17
+2025-04-30 22:00:50,334 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-04-30 22:00:50,580 - ERROR - Error adding plate image: cannot access local variable 'best_detection' where it is not associated with a value
+2025-04-30 22:00:50,628 - INFO - Generated challan for vehicle 17
+2025-04-30 22:00:50,628 - INFO - Successfully generated challan CH-20250430-17 for vehicle 17
+2025-04-30 22:00:50,629 - INFO - Challan generation completed!
+2025-04-30 22:01:29,810 - INFO - Generating challans for all speeding vehicles
+2025-04-30 22:01:29,836 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-04-30 22:01:30,125 - INFO - Generated challan for vehicle 17
+2025-04-30 22:01:30,127 - INFO - Using improved license plate detection: GP19XDO with confidence 0.93
+2025-04-30 22:01:30,346 - INFO - Generated challan for vehicle 23
+2025-04-30 22:01:30,347 - INFO - Using improved license plate detection: GP19XDO with confidence 0.95
+2025-04-30 22:01:30,578 - INFO - Generated challan for vehicle 24
+2025-04-30 22:01:30,579 - INFO - Using improved license plate detection: OL13EPN with confidence 0.92
+2025-04-30 22:01:30,807 - INFO - Generated challan for vehicle 27
+2025-04-30 22:01:30,808 - INFO - Generated 4 challans successfully
+2025-04-30 22:01:30,809 - INFO - Generated 4 challans
+2025-04-30 22:01:30,809 - INFO - Challan generation completed!
+2025-05-02 19:55:39,286 - INFO - Generating challans for all speeding vehicles
+2025-05-02 19:55:39,300 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-02 19:55:39,528 - INFO - Generated challan for vehicle 5
+2025-05-02 19:55:39,529 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-02 19:55:39,676 - INFO - Generated challan for vehicle 9
+2025-05-02 19:55:39,677 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-02 19:55:39,853 - INFO - Generated challan for vehicle 11
+2025-05-02 19:55:39,854 - INFO - Generated 3 challans successfully
+2025-05-02 19:55:39,854 - INFO - Generated 3 challans
+2025-05-02 19:55:39,855 - INFO - Challan generation completed!
+2025-05-02 20:03:01,648 - INFO - Generating challans for all speeding vehicles
+2025-05-02 20:03:01,651 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-02 20:03:01,797 - INFO - Generated challan for vehicle 5
+2025-05-02 20:03:01,798 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-02 20:03:01,938 - INFO - Generated challan for vehicle 9
+2025-05-02 20:03:01,939 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-02 20:03:02,079 - INFO - Generated challan for vehicle 11
+2025-05-02 20:03:02,080 - INFO - Generated 3 challans successfully
+2025-05-02 20:03:02,080 - INFO - Generated 3 challans
+2025-05-02 20:03:02,081 - INFO - Challan generation completed!
+2025-05-02 20:05:54,135 - INFO - Generating challans for all speeding vehicles
+2025-05-02 20:05:54,161 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-02 20:05:54,382 - INFO - Generated challan for vehicle 5
+2025-05-02 20:05:54,385 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-02 20:05:54,617 - INFO - Generated challan for vehicle 9
+2025-05-02 20:05:54,619 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-02 20:05:54,837 - INFO - Generated challan for vehicle 11
+2025-05-02 20:05:54,849 - INFO - Generated 3 challans successfully
+2025-05-02 20:05:54,850 - INFO - Generated 3 challans
+2025-05-02 20:05:54,850 - INFO - Challan generation completed!
+2025-05-02 20:18:09,019 - INFO - Generating challans for all speeding vehicles
+2025-05-02 20:18:09,045 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-02 20:18:09,269 - INFO - Generated challan for vehicle 5
+2025-05-02 20:18:09,272 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-02 20:18:09,432 - INFO - Generated challan for vehicle 9
+2025-05-02 20:18:09,434 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-02 20:18:09,605 - INFO - Generated challan for vehicle 11
+2025-05-02 20:18:09,606 - INFO - Generated 3 challans successfully
+2025-05-02 20:18:09,607 - INFO - Generated 3 challans
+2025-05-02 20:18:09,607 - INFO - Challan generation completed!
+2025-05-02 20:22:19,435 - INFO - Generating challans for all speeding vehicles
+2025-05-02 20:22:19,436 - INFO - Generated 0 challans successfully
+2025-05-02 20:22:19,436 - INFO - Generated 0 challans
+2025-05-02 20:22:19,437 - INFO - Challan generation completed!
+2025-05-02 20:26:02,691 - INFO - Generating challans for all speeding vehicles
+2025-05-02 20:26:02,692 - INFO - Generated 0 challans successfully
+2025-05-02 20:26:02,693 - INFO - Generated 0 challans
+2025-05-02 20:26:02,693 - INFO - Challan generation completed!
+2025-05-02 20:30:01,909 - INFO - Generating challans for all speeding vehicles
+2025-05-02 20:30:01,910 - INFO - Generated 0 challans successfully
+2025-05-02 20:30:01,911 - INFO - Generated 0 challans
+2025-05-02 20:30:01,912 - INFO - Challan generation completed!
+2025-05-02 20:38:17,422 - INFO - Generating challans for all speeding vehicles
+2025-05-02 20:38:17,424 - INFO - Generated 0 challans successfully
+2025-05-02 20:38:17,424 - INFO - Generated 0 challans
+2025-05-02 20:38:17,426 - INFO - Challan generation completed!
+2025-05-02 20:44:03,070 - INFO - Generating challan for vehicle ID: 5
+2025-05-02 20:44:03,072 - WARNING - No license plate data found for vehicle 5
+2025-05-02 20:44:03,229 - ERROR - Error adding plate image: cannot access local variable 'best_detection' where it is not associated with a value
+2025-05-02 20:44:03,257 - INFO - Generated challan for vehicle 5
+2025-05-02 20:44:03,259 - INFO - Successfully generated challan CH-20250502-5 for vehicle 5
+2025-05-02 20:44:03,260 - INFO - Challan generation completed!
+2025-05-02 20:45:53,330 - INFO - Generating challans for all speeding vehicles
+2025-05-02 20:45:53,331 - INFO - Generated 0 challans successfully
+2025-05-02 20:45:53,332 - INFO - Generated 0 challans
+2025-05-02 20:45:53,333 - INFO - Challan generation completed!
+2025-05-02 21:03:59,490 - INFO - Generating challans for all speeding vehicles
+2025-05-02 21:03:59,493 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-02 21:03:59,675 - INFO - Generated challan for vehicle 5
+2025-05-02 21:03:59,676 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-02 21:03:59,890 - INFO - Generated challan for vehicle 9
+2025-05-02 21:03:59,892 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-02 21:04:00,111 - INFO - Generated challan for vehicle 11
+2025-05-02 21:04:00,113 - INFO - Generated 3 challans successfully
+2025-05-02 21:04:00,114 - INFO - Generated 3 challans
+2025-05-02 21:04:00,115 - INFO - Challan generation completed!
+2025-05-02 21:12:41,351 - INFO - Generating challan for vehicle ID: 5
+2025-05-02 21:12:41,353 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-02 21:12:41,570 - INFO - Generated challan for vehicle 5
+2025-05-02 21:12:41,573 - INFO - Successfully generated challan CH-20250502-5 for vehicle 5
+2025-05-02 21:12:41,573 - INFO - Challan generation completed!
+2025-05-02 22:43:56,160 - INFO - Generating challans for all speeding vehicles
+2025-05-02 22:43:56,161 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-02 22:43:56,270 - INFO - Generated challan for vehicle 5
+2025-05-02 22:43:56,271 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-02 22:43:56,376 - INFO - Generated challan for vehicle 9
+2025-05-02 22:43:56,377 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-02 22:43:56,488 - INFO - Generated challan for vehicle 11
+2025-05-02 22:43:56,488 - INFO - Generated 3 challans successfully
+2025-05-02 22:43:56,489 - INFO - Generated 3 challans
+2025-05-02 22:43:56,489 - INFO - Challan generation completed!
+2025-05-03 11:23:18,404 - INFO - Generating challans for all speeding vehicles
+2025-05-03 11:23:18,416 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-03 11:23:18,592 - INFO - Generated challan for vehicle 5
+2025-05-03 11:23:18,593 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-03 11:23:18,707 - INFO - Generated challan for vehicle 9
+2025-05-03 11:23:18,709 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-03 11:23:18,827 - INFO - Generated challan for vehicle 11
+2025-05-03 11:23:18,829 - INFO - Generated 3 challans successfully
+2025-05-03 11:23:18,830 - INFO - Generated 3 challans
+2025-05-03 11:23:18,830 - INFO - Challan generation completed!
+2025-05-03 13:06:44,031 - INFO - Generating challans for all speeding vehicles
+2025-05-03 13:06:44,032 - INFO - Generated 0 challans successfully
+2025-05-03 13:06:44,032 - INFO - Generated 0 challans
+2025-05-03 13:06:44,033 - INFO - Challan generation completed!
+2025-05-03 17:47:15,346 - INFO - Generating challans for all speeding vehicles
+2025-05-03 17:47:15,350 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-03 17:47:15,761 - INFO - Generated challan for vehicle 5
+2025-05-03 17:47:15,763 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-03 17:47:16,068 - INFO - Generated challan for vehicle 9
+2025-05-03 17:47:16,071 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-03 17:47:16,378 - INFO - Generated challan for vehicle 11
+2025-05-03 17:47:16,379 - INFO - Generated 3 challans successfully
+2025-05-03 17:47:16,380 - INFO - Generated 3 challans
+2025-05-03 17:47:16,381 - INFO - Challan generation completed!
+2025-05-06 22:13:48,039 - INFO - Generating challans for all speeding vehicles
+2025-05-06 22:13:48,041 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-06 22:13:48,308 - INFO - Generated challan for vehicle 5
+2025-05-06 22:13:48,310 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-06 22:13:48,489 - INFO - Generated challan for vehicle 9
+2025-05-06 22:13:48,490 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-06 22:13:48,623 - INFO - Generated challan for vehicle 11
+2025-05-06 22:13:48,624 - INFO - Generated 3 challans successfully
+2025-05-06 22:13:48,624 - INFO - Generated 3 challans
+2025-05-06 22:13:48,625 - INFO - Challan generation completed!
+2025-05-08 22:59:57,475 - INFO - Generating challans for all speeding vehicles
+2025-05-08 22:59:57,475 - INFO - Generated 0 challans successfully
+2025-05-08 22:59:57,475 - INFO - Generated 0 challans
+2025-05-08 22:59:57,476 - INFO - Challan generation completed!
+2025-05-08 23:01:26,392 - INFO - Generating challans for all speeding vehicles
+2025-05-08 23:01:26,393 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-08 23:01:26,548 - INFO - Generated challan for vehicle 5
+2025-05-08 23:01:26,549 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-08 23:01:26,664 - INFO - Generated challan for vehicle 9
+2025-05-08 23:01:26,665 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-08 23:01:26,792 - INFO - Generated challan for vehicle 11
+2025-05-08 23:01:26,793 - INFO - Generated 3 challans successfully
+2025-05-08 23:01:26,793 - INFO - Generated 3 challans
+2025-05-08 23:01:26,793 - INFO - Challan generation completed!
+2025-05-09 10:03:19,732 - INFO - Generating challans for all speeding vehicles
+2025-05-09 10:03:19,735 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-09 10:03:19,862 - INFO - Generated challan for vehicle 5
+2025-05-09 10:03:19,862 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-09 10:03:19,966 - INFO - Generated challan for vehicle 9
+2025-05-09 10:03:19,967 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-09 10:03:20,074 - INFO - Generated challan for vehicle 11
+2025-05-09 10:03:20,075 - INFO - Generated 3 challans successfully
+2025-05-09 10:03:20,076 - INFO - Generated 3 challans
+2025-05-09 10:03:20,076 - INFO - Challan generation completed!
+2025-05-09 11:28:21,433 - INFO - Generating challans for all speeding vehicles
+2025-05-09 11:28:21,435 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-09 11:28:21,565 - INFO - Generated challan for vehicle 5
+2025-05-09 11:28:21,566 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-09 11:28:21,688 - INFO - Generated challan for vehicle 9
+2025-05-09 11:28:21,689 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-09 11:28:21,837 - INFO - Generated challan for vehicle 11
+2025-05-09 11:28:21,838 - INFO - Generated 3 challans successfully
+2025-05-09 11:28:21,838 - INFO - Generated 3 challans
+2025-05-09 11:28:21,838 - INFO - Challan generation completed!
+2025-05-09 11:49:12,898 - INFO - Generating challans for all speeding vehicles
+2025-05-09 11:49:12,900 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-09 11:49:13,031 - INFO - Generated challan for vehicle 5
+2025-05-09 11:49:13,032 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-09 11:49:13,160 - INFO - Generated challan for vehicle 9
+2025-05-09 11:49:13,161 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-09 11:49:13,287 - INFO - Generated challan for vehicle 11
+2025-05-09 11:49:13,288 - INFO - Generated 3 challans successfully
+2025-05-09 11:49:13,288 - INFO - Generated 3 challans
+2025-05-09 11:49:13,288 - INFO - Challan generation completed!
+2025-05-09 15:07:53,875 - INFO - Generating challans for all speeding vehicles
+2025-05-09 15:07:53,887 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-09 15:07:54,090 - INFO - Generated challan for vehicle 5
+2025-05-09 15:07:54,091 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-09 15:07:54,212 - INFO - Generated challan for vehicle 9
+2025-05-09 15:07:54,213 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-09 15:07:54,335 - INFO - Generated challan for vehicle 11
+2025-05-09 15:07:54,336 - INFO - Generated 3 challans successfully
+2025-05-09 15:07:54,336 - INFO - Generated 3 challans
+2025-05-09 15:07:54,336 - INFO - Challan generation completed!
+2025-05-09 15:19:16,557 - INFO - Generating challans for all speeding vehicles
+2025-05-09 15:19:16,559 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-09 15:19:16,694 - INFO - Generated challan for vehicle 5
+2025-05-09 15:19:16,695 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-09 15:19:16,823 - INFO - Generated challan for vehicle 9
+2025-05-09 15:19:16,824 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-09 15:19:16,947 - INFO - Generated challan for vehicle 11
+2025-05-09 15:19:16,948 - INFO - Generated 3 challans successfully
+2025-05-09 15:19:16,948 - INFO - Generated 3 challans
+2025-05-09 15:19:16,948 - INFO - Challan generation completed!
+2025-05-09 15:21:59,985 - INFO - Generating challans for all speeding vehicles
+2025-05-09 15:21:59,987 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-09 15:22:00,117 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-09 15:22:00,118 - INFO - Generated challan for vehicle 5
+2025-05-09 15:22:00,119 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-09 15:22:00,222 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-09 15:22:00,222 - INFO - Generated challan for vehicle 9
+2025-05-09 15:22:00,223 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-09 15:22:00,330 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-09 15:22:00,330 - INFO - Generated challan for vehicle 11
+2025-05-09 15:22:00,331 - INFO - Generated 3 challans successfully
+2025-05-09 15:22:00,331 - INFO - Generated 3 challans
+2025-05-09 15:22:00,332 - INFO - Challan generation completed!
+2025-05-09 15:25:50,940 - INFO - Generating challans for all speeding vehicles
+2025-05-09 15:25:50,942 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-09 15:25:51,144 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-09 15:25:51,145 - INFO - Generated challan for vehicle 5
+2025-05-09 15:25:51,148 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-09 15:25:51,320 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-09 15:25:51,321 - INFO - Generated challan for vehicle 9
+2025-05-09 15:25:51,323 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-09 15:25:51,500 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-09 15:25:51,501 - INFO - Generated challan for vehicle 11
+2025-05-09 15:25:51,502 - INFO - Generated 3 challans successfully
+2025-05-09 15:25:51,503 - INFO - Generated 3 challans
+2025-05-09 15:25:51,503 - INFO - Challan generation completed!
+2025-05-09 15:30:47,461 - INFO - Generating challans for all speeding vehicles
+2025-05-09 15:30:47,464 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-09 15:30:47,711 - INFO - Generated challan for vehicle 5
+2025-05-09 15:30:47,713 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-09 15:30:47,960 - INFO - Generated challan for vehicle 9
+2025-05-09 15:30:47,962 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-09 15:30:48,158 - INFO - Generated challan for vehicle 11
+2025-05-09 15:30:48,159 - INFO - Generated 3 challans successfully
+2025-05-09 15:30:48,160 - INFO - Generated 3 challans
+2025-05-09 15:30:48,160 - INFO - Challan generation completed!
+2025-05-11 10:49:42,184 - INFO - Generating challans for all speeding vehicles
+2025-05-11 10:49:42,187 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-11 10:49:42,422 - INFO - Generated challan for vehicle 5
+2025-05-11 10:49:42,424 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-11 10:49:42,668 - INFO - Generated challan for vehicle 9
+2025-05-11 10:49:42,671 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-11 10:49:42,880 - INFO - Generated challan for vehicle 11
+2025-05-11 10:49:42,882 - INFO - Generated 3 challans successfully
+2025-05-11 10:49:42,882 - INFO - Generated 3 challans
+2025-05-11 10:49:42,883 - INFO - Challan generation completed!
+2025-05-11 10:52:16,727 - INFO - Generating challans for all speeding vehicles
+2025-05-11 10:52:16,729 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-11 10:52:16,843 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-11 10:52:16,843 - INFO - Generated challan for vehicle 5
+2025-05-11 10:52:16,844 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-11 10:52:16,938 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-11 10:52:16,938 - INFO - Generated challan for vehicle 9
+2025-05-11 10:52:16,939 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-11 10:52:17,045 - ERROR - Error saving challan data: Expecting ':' delimiter: line 1892 column 14 (char 63689)
+2025-05-11 10:52:17,046 - INFO - Generated challan for vehicle 11
+2025-05-11 10:52:17,046 - INFO - Generated 3 challans successfully
+2025-05-11 10:52:17,046 - INFO - Generated 3 challans
+2025-05-11 10:52:17,047 - INFO - Challan generation completed!
+2025-05-11 10:54:23,386 - INFO - Generating challans for all speeding vehicles
+2025-05-11 10:54:23,388 - INFO - Using improved license plate detection: GY14NAO with confidence 0.97
+2025-05-11 10:54:23,492 - INFO - Generated challan for vehicle 5
+2025-05-11 10:54:23,493 - INFO - Using improved license plate detection: GY64VZG with confidence 0.96
+2025-05-11 10:54:23,594 - INFO - Generated challan for vehicle 9
+2025-05-11 10:54:23,596 - INFO - Using improved license plate detection: PJ66HFW with confidence 0.97
+2025-05-11 10:54:23,708 - INFO - Generated challan for vehicle 11
+2025-05-11 10:54:23,709 - INFO - Generated 3 challans successfully
+2025-05-11 10:54:23,709 - INFO - Generated 3 challans
+2025-05-11 10:54:23,709 - INFO - Challan generation completed!

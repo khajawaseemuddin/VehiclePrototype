@@ -25,9 +25,15 @@ SPEED_HISTORY_LENGTH = 100
 TRACK_HISTORY_LENGTH = 30
 
 # Challan System
+BASE_SPEED_LIMIT = 80  # km/h
 BASE_FINE = 1000
 FINE_PER_KM_OVER_LIMIT = 100
 CHALLAN_TEMPLATE_PATH = "templates/challan_template.jpg"
+LOCATION = "Main Highway, City Center"
+AUTHORITY_NAME = "City Traffic Police Department"
+AUTHORITY_PHONE = "+1-555-123-4567"
+PAYMENT_LINK = "http://localhost:5000/pay"
+BASE_URL = "http://localhost:5000"  # Base URL for the web interface
 
 # Create necessary directories
 os.makedirs(os.path.join(OUTPUT_DIR, "speeding"), exist_ok=True)

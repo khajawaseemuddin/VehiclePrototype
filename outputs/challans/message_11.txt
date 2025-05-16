@@ -1,0 +1,15 @@
+
+TRAFFIC CHALLAN NOTIFICATION
+
+Vehicle Number: PJ66HFW
+Violation: Speed Limit Exceeded
+Recorded Speed: 83.2 km/h
+Speed Limit: 80 km/h
+Fine Amount: Rs. 1000
+Date: 2025-05-11 10:54:44
+Location: Main Highway, City Center
+
+This is an automated message. Please visit our website or scan the QR code on your digital challan to view details and make payment.
+
+Traffic Police Department
+City Traffic Police Department

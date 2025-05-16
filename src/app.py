@@ -42,7 +42,43 @@ challan_generator = ChallanGenerator()
 @app.route('/')
 def index():
     """Render the main dashboard"""
-    return render_template('index.html')
+    # Get detection results
+    results = {}
+    plate_data = {}
+    improved_data = {}
+    
+    # Load detection results
+    detection_results_path = os.path.join(OUTPUT_DIR, 'detections', 'detection_results.json')
+    if os.path.exists(detection_results_path):
+        with open(detection_results_path, 'r') as f:
+            results = json.load(f)
+    else:
+        results = {
+            'total_frames': 0,
+            'total_vehicles': 0,
+            'speeding_vehicles': 0,
+            'speeding_vehicle_ids': []
+        }
+    
+    # Load plate data
+    plate_data_path = os.path.join(OUTPUT_DIR, 'plates', 'plate_detection_results.json')
+    if os.path.exists(plate_data_path):
+        with open(plate_data_path, 'r') as f:
+            plate_data = json.load(f)
+    else:
+        plate_data = {
+            'total_vehicles_processed': 0,
+            'plates_detected': 0,
+            'vehicle_details': {}
+        }
+    
+    # Load improved plate data
+    improved_data_path = os.path.join(OUTPUT_DIR, 'improved_plates', 'improved_plate_data.json')
+    if os.path.exists(improved_data_path):
+        with open(improved_data_path, 'r') as f:
+            improved_data = json.load(f)
+    
+    return render_template('index.html', results=results, plate_data=plate_data, improved_data=improved_data)
 
 @app.route('/start_detection', methods=['POST'])
 def start_detection():

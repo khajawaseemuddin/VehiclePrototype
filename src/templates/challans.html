@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoChallan - Traffic Challans Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #3a6ea5;
+            --secondary-color: #f0f7ff;
+            --accent-color: #ff6b6b;
+            --text-color: #2d3748;
+            --light-gray: #f8f9fa;
+            --dark-gray: #343a40;
+            --success-color: #38b2ac;
+            --warning-color: #f6ad55;
+            --danger-color: #e53e3e;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+            background-color: #f5f8fa;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .navbar {
+            background-color: var(--primary-color) !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .brand-icon {
+            font-size: 1.8rem;
+            color: var(--accent-color);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), #1e4e8c);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            font-weight: 300;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+        
+        .summary-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            height: 100%;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .summary-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .summary-card.bg-primary {
+            background: linear-gradient(135deg, #4299e1, #3182ce) !important;
+        }
+        
+        .summary-card.bg-warning {
+            background: linear-gradient(135deg, #f6ad55, #ed8936) !important;
+        }
+        
+        .summary-card.bg-success {
+            background: linear-gradient(135deg, #48bb78, #38a169) !important;
+        }
+        
+        .summary-card.bg-danger {
+            background: linear-gradient(135deg, #f56565, #e53e3e) !important;
+        }
+        
+        .summary-title {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
+        }
+        
+        .summary-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        
+        .search-container {
+            margin-bottom: 2rem;
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        .input-group {
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .input-group .form-control {
+            border: none;
+            font-size: 1rem;
+            padding: 0.75rem 1.25rem;
+            background-color: #f9fafc;
+        }
+        
+        .input-group .btn {
+            padding: 0.75rem 1.5rem;
+            font-weight: 500;
+        }
+        
+        .challan-card {
+            height: 100%;
+        }
+        
+        .challan-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        
+        .status-badge {
+            padding: 0.35rem 0.75rem;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .status-pending {
+            background-color: var(--warning-color);
+            color: #744210;
+        }
+        
+        .status-paid {
+            background-color: var(--success-color);
+            color: #22543d;
+        }
+        
+        .plate-number {
+            font-family: 'Courier New', monospace;
+            font-size: 1.25rem;
+            font-weight: 700;
+            background-color: var(--light-gray);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            letter-spacing: 1.5px;
+            display: inline-block;
+            margin: 0.5rem 0;
+        }
+        
+        .challan-details {
+            margin: 1rem 0;
+        }
+        
+        .challan-details strong {
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .challan-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .qr-code {
+            width: 80px;
+            height: 80px;
+            border-radius: 6px;
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+        
+        .btn {
+            border-radius: 6px;
+            padding: 0.5rem 1rem;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .btn-sm {
+            padding: 0.25rem 0.75rem;
+            font-size: 0.875rem;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #2d5a8b;
+            border-color: #2d5a8b;
+        }
+        
+        .btn-info {
+            background-color: #4299e1;
+            border-color: #4299e1;
+            color: white;
+        }
+        
+        .btn-info:hover {
+            background-color: #3182ce;
+            border-color: #3182ce;
+            color: white;
+        }
+        
+        .footer {
+            margin-top: 3rem;
+            background-color: var(--dark-gray);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-car-crash brand-icon"></i>
+                AutoChallan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <i class="fas fa-home"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/improved_plates">
+                            <i class="fas fa-search"></i> Improved Detection
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/challans">
+                            <i class="fas fa-receipt"></i> Challans
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header text-center">
+        <div class="container">
+            <h1><i class="fas fa-receipt me-2"></i>Traffic Challans Dashboard</h1>
+            <p>Manage and monitor all traffic violations and challan records</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Stats Summary -->
+        <div class="row mb-4">
+            <div class="col-md-3 mb-3">
+                <div class="summary-card bg-primary text-white">
+                    <div class="summary-title">
+                        <i class="fas fa-file-invoice me-2"></i>Total Challans
+                    </div>
+                    <div class="summary-number">{{ challan_data.challans|length }}</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="summary-card bg-warning text-white">
+                    <div class="summary-title">
+                        <i class="fas fa-clock me-2"></i>Pending Payment
+                    </div>
+                    <div class="summary-number">
+                        {{ challan_data.challans|selectattr('status', 'equalto', 'Pending')|list|length }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="summary-card bg-success text-white">
+                    <div class="summary-title">
+                        <i class="fas fa-check-circle me-2"></i>Paid Challans
+                    </div>
+                    <div class="summary-number">
+                        {{ challan_data.challans|selectattr('status', 'equalto', 'Paid')|list|length }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="summary-card bg-danger text-white">
+                    <div class="summary-title">
+                        <i class="fas fa-rupee-sign me-2"></i>Total Fine Amount
+                    </div>
+                    <div class="summary-number">
+                        ₹{{ challan_data.challans|map(attribute='fine_amount')|sum }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-container">
+            <div class="input-group">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search by vehicle number, challan ID...">
+                <button class="btn btn-primary" onclick="searchChallans()">
+                    <i class="fas fa-search me-2"></i>Search
+                </button>
+            </div>
+        </div>
+
+        <!-- Challans List -->
+        <div class="row" id="challansList">
+            {% if challan_data.challans|length == 0 %}
+                <div class="col-12">
+                    <div class="alert alert-info text-center py-4">
+                        <i class="fas fa-info-circle fa-2x mb-3"></i>
+                        <h4>No Challans Generated Yet</h4>
+                        <p class="mb-0">When speeding vehicles are detected and processed, their challans will appear here.</p>
+                    </div>
+                </div>
+            {% else %}
+                {% for challan in challan_data.challans %}
+                    <div class="col-md-4 mb-4 challan-item">
+                        <div class="card challan-card">
+                            <img src="{{ challan.challan_image }}" class="challan-image" alt="Challan Image">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h5 class="card-title fw-bold">Challan #{{ challan.challan_id.split('-')[1] }}</h5>
+                                    <span class="status-badge status-{{ challan.status|lower }}">{{ challan.status }}</span>
+                                </div>
+                                
+                                <div class="text-center mb-3">
+                                    <span class="plate-number">{{ challan.plate_text }}</span>
+                                </div>
+                                
+                                <div class="challan-details">
+                                    <div class="row g-2">
+                                        <div class="col-6">
+                                            <div><strong>Violation:</strong></div>
+                                            <div>Speed Limit Exceeded</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div><strong>Speed:</strong></div>
+                                            <div>{{ challan.speed }} km/h</div>
+                                        </div>
+                                        <div class="col-6 mt-2">
+                                            <div><strong>Fine Amount:</strong></div>
+                                            <div>₹{{ challan.fine_amount }}</div>
+                                        </div>
+                                        <div class="col-6 mt-2">
+                                            <div><strong>Issue Date:</strong></div>
+                                            <div>{{ challan.issue_date.split(' ')[0] }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="challan-actions mt-3">
+                                    <div>
+                                        <a href="{{ challan.challan_image }}" target="_blank" class="btn btn-sm btn-primary">
+                                            <i class="fas fa-file-alt me-1"></i> View
+                                        </a>
+                                        <a href="/get_message/{{ challan.vehicle_id }}" target="_blank" class="btn btn-sm btn-info">
+                                            <i class="fas fa-envelope me-1"></i> Message
+                                        </a>
+                                    </div>
+                                    <a href="{{ challan.qr_code }}" target="_blank">
+                                        <img src="{{ challan.qr_code }}" class="qr-code" alt="QR Code">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 AutoChallan - Speed Violation & License Plate Detection System</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function searchChallans() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const challanItems = document.querySelectorAll('.challan-item');
+            
+            challanItems.forEach(item => {
+                const itemText = item.textContent.toLowerCase();
+                if (itemText.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+        
+        // Add event listener for enter key on search input
+        document.getElementById('searchInput').addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                searchChallans();
+            }
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,44 @@
+Final Presentation Slide Points (Updated):
+
+1. Title & Team Members
+- Project title and team details
+- Guide and institution
+
+2. Introduction
+- Overview of traffic violation challenges
+- Importance of automated enforcement systems
+
+3. Problem Statement
+- Challenges in manual traffic enforcement
+- Need for automated, accurate, scalable solutions
+
+4. Objectives
+- Automate speed violation detection
+- Enhance license plate recognition accuracy
+- Streamline digital challan generation
+- Provide management interface
+
+5. Literature Survey (brief)
+- Evolution from OCR to deep learning
+- Advances in speed estimation and violation detection
+- Gaps addressed by AutoChallan
+
+6. Methodology / Design
+- Modular layered architecture
+- YOLOv8 and optical flow for detection and speed
+- Dual-tier license plate recognition
+- Automated challan generation with QR codes
+- Flask web interface
+
+7. Implementation
+- Algorithms for detection, speed calculation, plate recognition, challan generation
+- Data exchange and logging
+- Web API and dashboard
+
+8. Results
+- High accuracy and real-time processing
+- Successful challan generation and digital access
+
+9. Conclusion & Future Scope
+- Improved enforcement efficiency and accuracy
+- Planned enhancements for scalability and features
